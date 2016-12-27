@@ -1,6 +1,6 @@
 ---
 title: Свински пържоли с топла картофена салата
-date: 2013-11-30T16:05:24+00:00
+date: 2013-11-30T16:05:24
 author: Aurelia
 layout: post
 permalink: /svinski-parzholi-s-topla-kartofena-salata/

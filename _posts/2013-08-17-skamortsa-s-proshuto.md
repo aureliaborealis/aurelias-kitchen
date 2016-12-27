@@ -1,6 +1,6 @@
 ---
 title: Скаморца с прошуто
-date: 2013-08-17T12:00:23+00:00
+date: 2013-08-17T12:00:23
 author: Aurelia
 layout: post
 permalink: /skamortsa-s-proshuto/

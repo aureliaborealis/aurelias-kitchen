@@ -1,6 +1,6 @@
 ---
 title: Сочни кюфтенца на фурна
-date: 2013-02-03T16:30:15+00:00
+date: 2013-02-03T16:30:15
 author: Aurelia
 layout: post
 permalink: /sochni-kyuftentsa-na-furna/

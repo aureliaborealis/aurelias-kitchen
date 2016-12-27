@@ -1,6 +1,6 @@
 ---
 title: Гранола (Домашно мюсли)
-date: 2013-04-21T17:10:53+00:00
+date: 2013-04-21T17:10:53
 author: Aurelia
 layout: post
 permalink: /granola-domashno-myusli/

@@ -1,10 +1,8 @@
 ---
-id: 106
 title: Спагети Болонезе
-date: 2012-05-27T14:14:17+00:00
+date: 2012-05-27T14:14:17
 author: Aurelia
 layout: post
-guid: http://clementiniliciouss.wordpress.com/?p=106
 permalink: /spaghetti-bolognese/
 servings: 6
 calories: 600

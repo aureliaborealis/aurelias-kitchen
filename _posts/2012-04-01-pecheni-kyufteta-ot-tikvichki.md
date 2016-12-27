@@ -1,10 +1,8 @@
 ---
-id: 19
 title: Печени кюфтенца от тиквички
-date: 2012-04-01T08:16:24+00:00
+date: 2012-04-01T08:16:24
 author: Aurelia
 layout: post
-guid: http://clementiniliciouss.wordpress.com/?p=19
 permalink: /pecheni-kyufteta-ot-tikvichki/
 servings: 4
 calories: 270

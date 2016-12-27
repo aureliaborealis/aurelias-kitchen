@@ -1,6 +1,6 @@
 ---
 title: Класическа пилешка супа
-date: 2013-03-17T17:54:54+00:00
+date: 2013-03-17T17:54:54
 author: Aurelia
 layout: post
 permalink: /klasicheska-pileshka-supa/

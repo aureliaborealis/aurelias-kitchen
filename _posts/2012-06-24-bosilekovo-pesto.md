@@ -1,13 +1,9 @@
 ---
-id: 187
 title: Босилеково песто
-date: 2012-06-24T21:05:34+00:00
+date: 2012-06-24T21:05:34
 author: Aurelia
 layout: post
-guid: http://clementiniliciouss.wordpress.com/?p=187
 permalink: /bosilekovo-pesto/
-jabber_published:
-  - 1340561134
 servings: 25
 ingredients:
   - |

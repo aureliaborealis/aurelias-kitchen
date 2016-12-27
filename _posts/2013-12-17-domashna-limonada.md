@@ -1,6 +1,6 @@
 ---
 title: Домашна лимонада
-date: 2013-12-17T19:13:04+00:00
+date: 2013-12-17T19:13:04
 author: Aurelia
 layout: post
 permalink: /domashna-limonada/

@@ -1,6 +1,6 @@
 ---
 title: Домашни целувки
-date: 2014-10-22T15:44:55+00:00
+date: 2014-10-22T15:44:55
 author: Aurelia
 layout: post
 permalink: /domashni-tseluvki/

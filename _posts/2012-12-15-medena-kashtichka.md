@@ -1,6 +1,6 @@
 ---
 title: Медена къщичка
-date: 2012-12-15T23:53:26+00:00
+date: 2012-12-15T23:53:26
 author: Aurelia
 layout: post
 permalink: /medena-kashtichka/

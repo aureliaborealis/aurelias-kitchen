@@ -1,7 +1,6 @@
 ---
-id: 193
 title: Печени домати
-date: 2012-07-23T17:14:25+00:00
+date: 2012-07-23T17:14:25
 author: Aurelia
 layout: post
 permalink: /pecheni-domati/

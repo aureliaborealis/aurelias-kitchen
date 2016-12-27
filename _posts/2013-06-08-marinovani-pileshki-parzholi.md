@@ -1,6 +1,6 @@
 ---
 title: Мариновани пилешки пържоли
-date: 2013-06-08T20:50:15+00:00
+date: 2013-06-08T20:50:15
 author: Aurelia
 layout: post
 permalink: /marinovani-pileshki-parzholi/

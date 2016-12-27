@@ -1,6 +1,6 @@
 ---
 title: Маргарита по флорентински
-date: 2013-06-18T09:52:41+00:00
+date: 2013-06-18T09:52:41
 author: Aurelia
 layout: post
 permalink: /margarita-po-florentinski/

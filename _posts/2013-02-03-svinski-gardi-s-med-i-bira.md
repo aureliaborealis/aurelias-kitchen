@@ -1,6 +1,6 @@
 ---
 title: Свински гърди с мед и бира
-date: 2013-02-03T18:01:45+00:00
+date: 2013-02-03T18:01:45
 author: Aurelia
 layout: post
 permalink: /svinski-gardi-s-med-i-bira/

@@ -1,7 +1,6 @@
 ---
-id: 212
 title: Риба на скара със задушени зеленчуци
-date: 2012-07-25T15:01:43+00:00
+date: 2012-07-25T15:01:43
 author: Aurelia
 layout: post
 permalink: /riba-na-skara-sas-zadusheni-zelenchutsi/

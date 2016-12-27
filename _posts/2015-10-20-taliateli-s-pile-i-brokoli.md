@@ -1,6 +1,6 @@
 ---
 title: Талиатели с пиле и броколи
-date: 2015-10-20T15:27:53+00:00
+date: 2015-10-20T15:27:53
 author: Aurelia
 layout: post
 permalink: /taliateli-s-pile-i-brokoli/

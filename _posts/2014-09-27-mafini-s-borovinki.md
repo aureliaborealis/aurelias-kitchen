@@ -1,6 +1,6 @@
 ---
 title: Мъфини с боровинки
-date: 2014-09-27T20:42:45+00:00
+date: 2014-09-27T20:42:45
 author: Aurelia
 layout: post
 permalink: /mafini-s-borovinki/

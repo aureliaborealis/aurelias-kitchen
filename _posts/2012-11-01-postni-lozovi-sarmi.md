@@ -1,6 +1,6 @@
 ---
 title: Постни лозови сарми
-date: 2012-11-01T22:44:50+00:00
+date: 2012-11-01T22:44:50
 author: Aurelia
 layout: post
 permalink: /postni-lozovi-sarmi/

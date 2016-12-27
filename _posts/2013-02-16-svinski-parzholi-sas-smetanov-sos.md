@@ -1,6 +1,6 @@
 ---
 title: Свински пържоли със сметанов сос
-date: 2013-02-16T17:00:16+00:00
+date: 2013-02-16T17:00:16
 author: Aurelia
 layout: post
 permalink: /svinski-parzholi-sas-smetanov-sos/

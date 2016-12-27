@@ -1,6 +1,6 @@
 ---
 title: Печен амур със зеленчуци
-date: 2013-03-10T14:39:10+00:00
+date: 2013-03-10T14:39:10
 author: Aurelia
 layout: post
 permalink: /pechen-amur-sas-zelenchutsi/

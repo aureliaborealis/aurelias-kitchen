@@ -1,10 +1,8 @@
 ---
-id: 4
 title: Салата със спанак и пилешко
-date: 2012-03-31T15:06:01+00:00
+date: 2012-03-31T15:06:01
 author: Aurelia
 layout: post
-guid: http://clementiniliciouss.wordpress.com/?p=4
 permalink: /salata-sas-spanak-i-pileshko/
 servings: 2
 calories: 240

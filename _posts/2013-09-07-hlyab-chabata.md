@@ -1,6 +1,6 @@
 ---
 title: 'Хляб &#8220;Чабата&#8221;'
-date: 2013-09-07T16:28:25+00:00
+date: 2013-09-07T16:28:25
 author: Aurelia
 layout: post
 permalink: /hlyab-chabata/

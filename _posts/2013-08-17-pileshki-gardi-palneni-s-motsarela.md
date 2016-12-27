@@ -1,6 +1,6 @@
 ---
 title: Пилешки гърди, пълнени с моцарела
-date: 2013-08-17T11:52:06+00:00
+date: 2013-08-17T11:52:06
 author: Aurelia
 layout: post
 permalink: /pileshki-gardi-palneni-s-motsarela/

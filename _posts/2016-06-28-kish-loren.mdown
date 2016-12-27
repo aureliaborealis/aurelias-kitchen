@@ -3,6 +3,7 @@ title: Киш Лорен
 date: 2016-06-28T14:29
 author: Aurelia
 layout: post
+permalink: /kish-loren/
 servings: 8
 calories: 430
 preparation_time: 40

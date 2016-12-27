@@ -1,6 +1,6 @@
 ---
 title: Домашни фалафели
-date: 2014-04-21T19:02:13+00:00
+date: 2014-04-21T19:02:13
 author: Aurelia
 layout: post
 permalink: /domashni-falafeli/

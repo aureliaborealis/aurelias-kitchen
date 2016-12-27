@@ -1,6 +1,6 @@
 ---
 title: Сандвич със салчичон
-date: 2012-10-29T13:37:18+00:00
+date: 2012-10-29T13:37:18
 author: Aurelia
 layout: post
 permalink: /sandvich-sas-salchichon/

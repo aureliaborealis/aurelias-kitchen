@@ -1,6 +1,6 @@
 ---
 title: Свинско със зеле
-date: 2014-02-16T08:43:00+00:00
+date: 2014-02-16T08:43:00
 author: Aurelia
 layout: post
 permalink: /svinsko-sas-zele/

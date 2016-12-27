@@ -1,6 +1,6 @@
 ---
 title: Домашни бухтички
-date: 2013-02-23T12:58:06+00:00
+date: 2013-02-23T12:58:06
 author: Aurelia
 layout: post
 permalink: /domashni-buhtichki/

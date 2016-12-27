@@ -1,10 +1,8 @@
 ---
-id: 397
 title: Пиле Качиаторе (пиле по ловджийски)
-date: 2012-10-28T21:46:08+00:00
+date: 2012-10-28T21:46:08
 author: Aurelia
 layout: post
-guid: http://aurelias-kitchen.com/?p=397
 permalink: /pile-kachiatore-pile-po-lovdzhijski/
 servings: 6
 calories: 300

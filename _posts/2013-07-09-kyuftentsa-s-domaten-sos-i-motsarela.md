@@ -1,6 +1,6 @@
 ---
 title: Кюфтенца с доматен сос и моцарела
-date: 2013-07-09T12:08:04+00:00
+date: 2013-07-09T12:08:04
 author: Aurelia
 layout: post
 permalink: /kyuftentsa-s-domaten-sos-i-motsarela/

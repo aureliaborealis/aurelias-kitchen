@@ -1,6 +1,6 @@
 ---
 title: Просеко с нар
-date: 2014-01-04T15:38:15+00:00
+date: 2014-01-04T15:38:15
 author: Aurelia
 layout: post
 permalink: /proseko-s-nar/

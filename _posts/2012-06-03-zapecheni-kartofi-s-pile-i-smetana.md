@@ -1,10 +1,8 @@
 ---
-id: 161
 title: Запечени картофи с пиле и сметана
-date: 2012-06-03T17:30:45+00:00
+date: 2012-06-03T17:30:45
 author: Aurelia
 layout: post
-guid: http://clementiniliciouss.wordpress.com/?p=161
 permalink: /zapecheni-kartofi-s-pile-i-smetana/
 servings: 6
 calories: 450

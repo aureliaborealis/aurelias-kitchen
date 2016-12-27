@@ -1,6 +1,6 @@
 ---
 title: 'Доматен сос (за пица, спагети, брускети&#8230;)'
-date: 2013-09-08T11:46:32+00:00
+date: 2013-09-08T11:46:32
 author: Aurelia
 layout: post
 permalink: /domaten-sos-za-pitsa-spageti-brusketi/

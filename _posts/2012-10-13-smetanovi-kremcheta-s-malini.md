@@ -1,7 +1,6 @@
 ---
-id: 221
 title: Сметанови кремчета с малини
-date: 2012-10-13T21:15:00+00:00
+date: 2012-10-13T21:15:00
 author: Aurelia
 layout: post
 permalink: /smetanovi-kremcheta-s-malini/

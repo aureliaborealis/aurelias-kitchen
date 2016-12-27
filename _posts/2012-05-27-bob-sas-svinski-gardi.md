@@ -1,10 +1,8 @@
 ---
-id: 208
 title: Боб със свински гърди
-date: 2012-05-27T18:51:39+00:00
+date: 2012-05-27T18:51:39
 author: Aurelia
 layout: post
-guid: http://clementiniliciouss.wordpress.com/?p=134
 permalink: /bob-sas-svinski-gardi/
 ingredients:
   - |

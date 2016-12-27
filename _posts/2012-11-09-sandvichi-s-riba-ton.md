@@ -1,6 +1,6 @@
 ---
 title: Сандвичи с риба тон
-date: 2012-11-09T22:01:44+00:00
+date: 2012-11-09T22:01:44
 author: Aurelia
 layout: post
 permalink: /sandvichi-s-riba-ton/

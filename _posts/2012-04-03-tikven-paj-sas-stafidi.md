@@ -1,10 +1,8 @@
 ---
-id: 35
 title: Тиквен пай със стафиди
-date: 2012-04-03T14:36:50+00:00
+date: 2012-04-03T14:36:50
 author: Aurelia
 layout: post
-guid: http://clementiniliciouss.wordpress.com/?p=35
 permalink: /tikven-paj-sas-stafidi/
 ingredients:
   - |
@@ -29,7 +27,8 @@ categories:
   - Десерти
 image: /media/2012/04/IMG_7708.jpg
 ---
-[<img src="http://aurelias-kitchen.com/wp-content/uploads/2012/04/IMG_7700-300x225.jpg" alt="" title="IMG_7700" width="300" height="225" class="alignleft size-medium wp-image-505" srcset="http://aurelias-kitchen.com/wp-content/uploads/2012/04/IMG_7700-300x225.jpg 300w, http://aurelias-kitchen.com/wp-content/uploads/2012/04/IMG_7700-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" />](http://aurelias-kitchen.com/wp-content/uploads/2012/04/IMG_7700.jpg)[<img src="http://aurelias-kitchen.com/wp-content/uploads/2012/04/IMG_7708-300x225.jpg" alt="" title="IMG_7708" width="300" height="225" class="alignleft size-medium wp-image-503" srcset="http://aurelias-kitchen.com/wp-content/uploads/2012/04/IMG_7708-300x225.jpg 300w, http://aurelias-kitchen.com/wp-content/uploads/2012/04/IMG_7708-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" />](http://aurelias-kitchen.com/wp-content/uploads/2012/04/IMG_7708.jpg) 
+<img src="/media/2012/04/IMG_7700.jpg" class="alignleft" />
+<img src="/media/2012/04/IMG_7708.jpg" class="alignleft" />
 
 Разбърква се сухата част от брашното, захарта, стафидите, подправките и кората портокал.
 

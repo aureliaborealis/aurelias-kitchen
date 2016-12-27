@@ -1,6 +1,6 @@
 ---
 title: Печено пиле с гъби
-date: 2012-11-15T20:35:26+00:00
+date: 2012-11-15T20:35:26
 author: Aurelia
 layout: post
 permalink: /pecheno-pile-s-gabi/

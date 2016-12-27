@@ -1,6 +1,6 @@
 ---
 title: Мъфини с круши и гранола
-date: 2014-03-16T10:42:19+00:00
+date: 2014-03-16T10:42:19
 author: Aurelia
 layout: post
 permalink: /mafini-s-krushi-i-granola/

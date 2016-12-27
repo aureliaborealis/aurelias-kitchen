@@ -1,6 +1,6 @@
 ---
 title: Домашен чипс със сметанов дип
-date: 2014-03-08T19:17:04+00:00
+date: 2014-03-08T19:17:04
 author: Aurelia
 layout: post
 permalink: /domashen-chips/

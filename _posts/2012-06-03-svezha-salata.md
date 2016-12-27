@@ -1,10 +1,8 @@
 ---
-id: 153
 title: '&#8220;Свежа&#8221; салата'
-date: 2012-06-03T17:01:22+00:00
+date: 2012-06-03T17:01:22
 author: Aurelia
 layout: post
-guid: http://clementiniliciouss.wordpress.com/?p=153
 permalink: /svezha-salata/
 ingredients:
   - |

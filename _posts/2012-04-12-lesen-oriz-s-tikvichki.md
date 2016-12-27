@@ -1,10 +1,8 @@
 ---
-id: 69
 title: Лесен ориз с тиквички
-date: 2012-04-12T09:36:25+00:00
+date: 2012-04-12T09:36:25
 author: Aurelia
 layout: post
-guid: http://clementiniliciouss.wordpress.com/?p=69
 permalink: /lesen-oriz-s-tikvichki/
 servings: '3 * 300гр'
 calories: 500

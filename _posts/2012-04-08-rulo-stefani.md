@@ -1,10 +1,8 @@
 ---
-id: 49
 title: 'Руло &#8220;Стефани&#8221;'
-date: 2012-04-08T13:01:03+00:00
+date: 2012-04-08T13:01:03
 author: Aurelia
 layout: post
-guid: http://clementiniliciouss.wordpress.com/?p=49
 permalink: /rulo-stefani/
 servings: '6 * 250гр'
 calories: 450

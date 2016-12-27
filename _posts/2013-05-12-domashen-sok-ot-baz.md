@@ -1,6 +1,6 @@
 ---
 title: Домашен Сок от Бъз
-date: 2013-05-12T06:47:53+00:00
+date: 2013-05-12T06:47:53
 author: Aurelia
 layout: post
 permalink: /domashen-sok-ot-baz/

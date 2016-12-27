@@ -1,7 +1,6 @@
 ---
-id: 404
 title: Пилешка супа с фиде
-date: 2012-10-28T22:03:12+00:00
+date: 2012-10-28T22:03:12
 author: Aurelia
 layout: post
 permalink: /pileshka-supa-s-fide/

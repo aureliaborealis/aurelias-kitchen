@@ -1,10 +1,8 @@
 ---
-id: 143
 title: Пълнени кюфтенца
-date: 2012-05-31T19:17:09+00:00
+date: 2012-05-31T19:17:09
 author: Aurelia
 layout: post
-guid: http://clementiniliciouss.wordpress.com/?p=143
 permalink: /palneni-kyuftentsa/
 servings: 4
 calories: 500

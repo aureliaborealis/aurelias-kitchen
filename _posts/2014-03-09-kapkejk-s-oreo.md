@@ -1,6 +1,6 @@
 ---
 title: Къпкейк с Орео
-date: 2014-03-09T18:00:25+00:00
+date: 2014-03-09T18:00:25
 author: Aurelia
 layout: post
 permalink: /kapkejk-s-oreo/

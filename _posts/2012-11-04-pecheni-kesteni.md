@@ -1,6 +1,6 @@
 ---
 title: Печени кестени
-date: 2012-11-04T17:14:18+00:00
+date: 2012-11-04T17:14:18
 author: Aurelia
 layout: post
 permalink: /pecheni-kesteni/

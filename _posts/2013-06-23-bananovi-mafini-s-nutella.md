@@ -1,6 +1,6 @@
 ---
 title: Бананови мъфини с nutella
-date: 2013-06-23T11:20:57+00:00
+date: 2013-06-23T11:20:57
 author: Aurelia
 layout: post
 permalink: /bananovi-mafini-s-nutella/

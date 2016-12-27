@@ -1,6 +1,6 @@
 ---
 title: Сандвич с котидж сирене и домат
-date: 2012-10-29T21:22:32+00:00
+date: 2012-10-29T21:22:32
 author: Aurelia
 layout: post
 permalink: /sandvich-s-kotidzh-sirene-i-domat/

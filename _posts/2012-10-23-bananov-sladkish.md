@@ -1,7 +1,6 @@
 ---
-id: 236
 title: Бананов сладкиш
-date: 2012-10-23T16:45:11+00:00
+date: 2012-10-23T16:45:11
 author: Aurelia
 layout: post
 permalink: /bananov-sladkish/

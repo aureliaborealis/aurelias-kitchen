@@ -1,6 +1,6 @@
 ---
 title: Салата с Бри и кедрови ядки
-date: 2014-05-01T10:30:27+00:00
+date: 2014-05-01T10:30:27
 author: Aurelia
 layout: post
 permalink: /salata-s-bri-i-kedrovi-yadki/

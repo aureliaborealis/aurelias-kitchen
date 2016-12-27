@@ -1,6 +1,6 @@
 ---
 title: Доматена супа със сметана и песто
-date: 2014-05-02T08:08:34+00:00
+date: 2014-05-02T08:08:34
 author: Aurelia
 layout: post
 permalink: /domatena-supa-sas-smetana-i-pesto/

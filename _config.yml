@@ -21,6 +21,10 @@ github_username:  jekyll
 
 permalink: pretty
 
+
+paginate: 11
+paginate_path: "/page/:num/"
+
 # Build settings
 markdown: kramdown
 
@@ -65,3 +69,4 @@ prose:
               value: "mangos"
 
 # Gems
+gems: [jekyll-paginate]

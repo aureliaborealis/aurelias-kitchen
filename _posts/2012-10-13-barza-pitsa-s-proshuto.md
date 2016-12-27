@@ -1,7 +1,6 @@
 ---
-id: 230
 title: Бърза пица с прошуто
-date: 2012-10-13T21:40:49+00:00
+date: 2012-10-13T21:40:49
 author: Aurelia
 layout: post
 permalink: /barza-pitsa-s-proshuto/

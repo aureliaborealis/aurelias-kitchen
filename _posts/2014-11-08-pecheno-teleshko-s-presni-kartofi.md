@@ -1,6 +1,6 @@
 ---
 title: Печено телешко с пресни картофи
-date: 2014-11-08T16:05:35+00:00
+date: 2014-11-08T16:05:35
 author: Aurelia
 layout: post
 permalink: /pecheno-teleshko-s-presni-kartofi/

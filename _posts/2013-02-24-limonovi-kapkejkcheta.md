@@ -1,6 +1,6 @@
 ---
 title: Лимонови къпкейкчета
-date: 2013-02-24T18:47:08+00:00
+date: 2013-02-24T18:47:08
 author: Aurelia
 layout: post
 permalink: /limonovi-kapkejkcheta/

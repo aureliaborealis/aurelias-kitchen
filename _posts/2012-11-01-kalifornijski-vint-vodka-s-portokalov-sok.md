@@ -1,6 +1,6 @@
 ---
 title: Калифорнийски винт (водка с портокалов сок)
-date: 2012-11-01T22:16:26+00:00
+date: 2012-11-01T22:16:26
 author: Aurelia
 layout: post
 permalink: /kalifornijski-vint-vodka-s-portokalov-sok/

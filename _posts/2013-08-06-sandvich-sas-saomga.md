@@ -1,6 +1,6 @@
 ---
 title: Сандвич със сьомга
-date: 2013-08-06T14:54:17+00:00
+date: 2013-08-06T14:54:17
 author: Aurelia
 layout: post
 permalink: /sandvich-sas-saomga/

@@ -1,6 +1,6 @@
 ---
 title: Пилешко биряни
-date: 2013-06-09T14:45:43+00:00
+date: 2013-06-09T14:45:43
 author: Aurelia
 layout: post
 permalink: /pileshko-biryani/

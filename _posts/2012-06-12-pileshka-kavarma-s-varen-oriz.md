@@ -1,13 +1,9 @@
 ---
-id: 184
 title: Пилешка кавърма с варен ориз
-date: 2012-06-12T22:28:01+00:00
+date: 2012-06-12T22:28:01
 author: Aurelia
 layout: post
-guid: http://clementiniliciouss.wordpress.com/?p=184
 permalink: /pileshka-kavarma-s-varen-oriz/
-jabber_published:
-  - 1339529284
 ingredients:
   - |
     1 кг пилешко месо (гърди/обезкостени бутчета), нарязано на малки кубчета

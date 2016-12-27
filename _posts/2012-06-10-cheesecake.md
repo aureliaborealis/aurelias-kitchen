@@ -1,7 +1,6 @@
 ---
-id: 174
 title: Чийзкейк
-date: 2012-06-10T13:15:16+00:00
+date: 2012-06-10T13:15:16
 author: Aurelia
 layout: post
 permalink: /cheesecake/

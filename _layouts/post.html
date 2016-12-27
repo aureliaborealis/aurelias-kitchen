@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article itemscope itemtype="http://schema.org/BlogPosting">
+<article itemscope itemtype="http://schema.org/Recipe">
 
     <div class="share-box box">
         <div class="share-widget">
@@ -27,13 +27,21 @@ layout: default
 
     <div class="post-aside">
         <div class="box">
-            <div><b>{{ page.servings }}</b> порции</div>
+            {% if page.servings %}
+                <div><b>{{ page.servings }}</b> порции</div>
+            {% endif %}
 
-            <div><b>{{ page.calories }}</b>kCal/порция</div>
+            {% if page.calories %}
+                <div><b>{{ page.calories }}</b>kCal/порция</div>
+            {% endif %}
 
-            <div>Време за подготовка - <b>{{ page.preparation_time }}</b>мин</div>
+            {% if page.preparation_time %}
+                <div>Време за подготовка - <b>{{ page.preparation_time }}</b>мин</div>
+            {% endif %}
 
-            <div>Време за готвене - <b>{{ page.cooking_time }}</b>мин</div>
+            {% if page.cooking_time %}
+                <div>Време за готвене - <b>{{ page.cooking_time }}</b>мин</div>
+            {% endif %}
         </div>
 
         <div class="note-wrapper">
@@ -62,7 +70,7 @@ layout: default
     </div>
 
     <div class="box">
-        <img src="{{ page.image }}" />
+        <img src="{{ page.image }}" class="post-header-image" />
         <header class="post-header">
             <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
             <p class="post-meta">

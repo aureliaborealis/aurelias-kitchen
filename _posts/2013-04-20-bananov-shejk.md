@@ -1,6 +1,6 @@
 ---
 title: Бананов шейк
-date: 2013-04-20T11:05:37+00:00
+date: 2013-04-20T11:05:37
 author: Aurelia
 layout: post
 permalink: /bananov-shejk/

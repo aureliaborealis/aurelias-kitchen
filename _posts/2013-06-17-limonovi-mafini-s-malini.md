@@ -1,6 +1,6 @@
 ---
 title: Лимонови мъфини с малини
-date: 2013-06-17T09:29:15+00:00
+date: 2013-06-17T09:29:15
 author: Aurelia
 layout: post
 permalink: /limonovi-mafini-s-malini/

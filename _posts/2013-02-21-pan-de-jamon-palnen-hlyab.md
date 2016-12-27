@@ -1,6 +1,6 @@
 ---
 title: Pan de jamón (Пълнен хляб)
-date: 2013-02-21T19:09:44+00:00
+date: 2013-02-21T19:09:44
 author: Aurelia
 layout: post
 permalink: /pan-de-jamon-palnen-hlyab/

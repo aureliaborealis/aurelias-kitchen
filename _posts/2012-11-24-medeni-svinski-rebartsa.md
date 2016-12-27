@@ -1,10 +1,8 @@
 ---
-id: 665
 title: Медени свински ребърца
-date: 2012-11-24T09:54:45+00:00
+date: 2012-11-24T09:54:45
 author: Aurelia
 layout: post
-guid: http://aurelias-kitchen.com/?p=665
 permalink: /medeni-svinski-rebartsa/
 servings: 4
 calories: 500

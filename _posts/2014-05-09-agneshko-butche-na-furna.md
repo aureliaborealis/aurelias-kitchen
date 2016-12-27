@@ -1,6 +1,6 @@
 ---
 title: Агнешко бутче на фурна
-date: 2014-05-09T20:29:10+00:00
+date: 2014-05-09T20:29:10
 author: Aurelia
 layout: post
 permalink: /agneshko-butche-na-furna/

@@ -1,6 +1,6 @@
 ---
 title: Пълнено пиле с нахут и лимон
-date: 2014-04-04T09:41:46+00:00
+date: 2014-04-04T09:41:46
 author: Aurelia
 layout: post
 permalink: /palneno-pile-s-nahut-i-limon/

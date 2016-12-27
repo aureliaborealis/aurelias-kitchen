@@ -1,6 +1,6 @@
 ---
 title: Салата с боб и червен лук
-date: 2013-06-23T13:54:31+00:00
+date: 2013-06-23T13:54:31
 author: Aurelia
 layout: post
 permalink: /salata-s-bob-i-cherven-luk/

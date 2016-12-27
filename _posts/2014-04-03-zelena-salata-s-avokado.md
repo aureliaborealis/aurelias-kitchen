@@ -1,6 +1,6 @@
 ---
 title: Зелена салата с авокадо
-date: 2014-04-03T15:23:43+00:00
+date: 2014-04-03T15:23:43
 author: Aurelia
 layout: post
 permalink: /zelena-salata-s-avokado/

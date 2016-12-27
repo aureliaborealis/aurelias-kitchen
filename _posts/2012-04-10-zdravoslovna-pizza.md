@@ -1,10 +1,8 @@
 ---
-id: 61
 title: Здравословна пица
-date: 2012-04-10T09:29:48+00:00
+date: 2012-04-10T09:29:48
 author: Aurelia
 layout: post
-guid: http://clementiniliciouss.wordpress.com/?p=61
 permalink: /zdravoslovna-pizza/
 servings: 4
 calories: 450

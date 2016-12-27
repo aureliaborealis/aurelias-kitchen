@@ -1,7 +1,6 @@
 ---
-id: 224
 title: Лингуини със сметана, прошуто и босилек
-date: 2012-10-13T21:29:03+00:00
+date: 2012-10-13T21:29:03
 author: Aurelia
 layout: post
 permalink: /linguini-sas-smetana-proshuto-i-bosilek/

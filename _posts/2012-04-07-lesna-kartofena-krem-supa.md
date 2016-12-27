@@ -1,10 +1,8 @@
 ---
-id: 43
 title: Лесна картофена крем-супа
-date: 2012-04-07T10:27:43+00:00
+date: 2012-04-07T10:27:43
 author: Aurelia
 layout: post
-guid: http://clementiniliciouss.wordpress.com/?p=43
 permalink: /lesna-kartofena-krem-supa/
 servings: 6
 calories: 300

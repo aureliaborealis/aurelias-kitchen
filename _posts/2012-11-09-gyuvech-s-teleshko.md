@@ -1,6 +1,6 @@
 ---
 title: Гювеч с телешко
-date: 2012-11-09T08:17:52+00:00
+date: 2012-11-09T08:17:52
 author: Aurelia
 layout: post
 permalink: /gyuvech-s-teleshko/

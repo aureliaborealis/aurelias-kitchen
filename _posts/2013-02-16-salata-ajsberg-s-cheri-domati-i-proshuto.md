@@ -1,10 +1,8 @@
 ---
-id: 896
 title: Салата Айсберг с чери домати и прошуто
-date: 2013-02-16T13:42:26+00:00
+date: 2013-02-16T13:42:26
 author: Aurelia
 layout: post
-guid: http://aurelias-kitchen.com/?p=896
 permalink: /salata-ajsberg-s-cheri-domati-i-proshuto/
 ingredients:
   - |

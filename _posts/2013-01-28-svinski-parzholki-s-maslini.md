@@ -1,6 +1,6 @@
 ---
 title: Свински пържолки с маслини
-date: 2013-01-28T19:21:15+00:00
+date: 2013-01-28T19:21:15
 author: Aurelia
 layout: post
 permalink: /svinski-parzholki-s-maslini/

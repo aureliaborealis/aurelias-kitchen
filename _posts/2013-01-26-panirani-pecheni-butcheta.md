@@ -1,6 +1,6 @@
 ---
 title: Панирани печени бутчета
-date: 2013-01-26T16:58:54+00:00
+date: 2013-01-26T16:58:54
 author: Aurelia
 layout: post
 permalink: /panirani-pecheni-butcheta/

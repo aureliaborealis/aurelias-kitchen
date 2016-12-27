@@ -1,7 +1,6 @@
 ---
-id: 233
 title: Вегетарианска тортиля
-date: 2012-10-14T20:33:15+00:00
+date: 2012-10-14T20:33:15
 author: Aurelia
 layout: post
 permalink: /vegetarianska-tortilya/

@@ -1,6 +1,6 @@
 ---
 title: Пиле Жулиен
-date: 2013-01-26T19:12:54+00:00
+date: 2013-01-26T19:12:54
 author: Aurelia
 layout: post
 permalink: /pile-zhulien/

@@ -1,7 +1,6 @@
 ---
-id: 196
 title: Пилешки шишчета
-date: 2012-07-23T17:34:26+00:00
+date: 2012-07-23T17:34:26
 author: Aurelia
 layout: post
 permalink: /pileshki-shishcheta/

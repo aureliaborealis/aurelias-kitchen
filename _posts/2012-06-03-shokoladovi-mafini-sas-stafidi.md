@@ -1,10 +1,8 @@
 ---
-id: 150
 title: Шоколадови мъфини със стафиди
-date: 2012-06-03T14:56:48+00:00
+date: 2012-06-03T14:56:48
 author: Aurelia
 layout: post
-guid: http://clementiniliciouss.wordpress.com/?p=150
 permalink: /shokoladovi-mafini-sas-stafidi/
 servings: 12
 calories: 260

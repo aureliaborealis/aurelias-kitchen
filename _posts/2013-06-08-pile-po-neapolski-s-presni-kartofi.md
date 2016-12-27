@@ -1,6 +1,6 @@
 ---
 title: Пиле по неаполски с пресни картофи
-date: 2013-06-08T21:30:07+00:00
+date: 2013-06-08T21:30:07
 author: Aurelia
 layout: post
 permalink: /pile-po-neapolski-s-presni-kartofi/

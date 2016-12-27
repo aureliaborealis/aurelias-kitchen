@@ -1,6 +1,6 @@
 ---
 title: Палачинки с банани и шоколад
-date: 2013-02-03T12:58:30+00:00
+date: 2013-02-03T12:58:30
 author: Aurelia
 layout: post
 permalink: /palachinki-s-banani-i-shokolad/

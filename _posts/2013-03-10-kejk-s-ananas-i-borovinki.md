@@ -1,6 +1,6 @@
 ---
 title: Кейк с ананас и боровинки
-date: 2013-03-10T18:22:24+00:00
+date: 2013-03-10T18:22:24
 author: Aurelia
 layout: post
 permalink: /kejk-s-ananas-i-borovinki/

@@ -1,12 +1,10 @@
 ---
-id: 140
 title: Лесни сандвичи
-date: 2012-05-31T19:03:52+00:00
+date: 2012-05-31T19:03:52
 author: Aurelia
 layout: post
-guid: http://clementiniliciouss.wordpress.com/?p=140
 permalink: /lesni-sandvichi/
-servings: 4 (х 2 филиите)
+servings: 4 (х 2 филии)
 calories: 260
 ingredients:
   - |

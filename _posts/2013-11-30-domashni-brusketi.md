@@ -1,6 +1,6 @@
 ---
 title: Домашни брускети
-date: 2013-11-30T16:04:37+00:00
+date: 2013-11-30T16:04:37
 author: Aurelia
 layout: post
 permalink: /domashni-brusketi/

@@ -1,6 +1,6 @@
 ---
 title: Баница със зеленчуци и шунка
-date: 2012-11-25T22:23:48+00:00
+date: 2012-11-25T22:23:48
 author: Aurelia
 layout: post
 permalink: /banitsa-sas-zelenchutsi-i-shunka/

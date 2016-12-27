@@ -1,6 +1,6 @@
 ---
 title: Винен кебап
-date: 2012-11-24T19:31:06+00:00
+date: 2012-11-24T19:31:06
 author: Aurelia
 layout: post
 permalink: /vinen-kebap/

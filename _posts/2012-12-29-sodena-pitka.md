@@ -1,6 +1,6 @@
 ---
 title: Содена Питка
-date: 2012-12-29T16:55:43+00:00
+date: 2012-12-29T16:55:43
 author: Aurelia
 layout: post
 permalink: /sodena-pitka/

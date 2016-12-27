@@ -1,6 +1,6 @@
 ---
 title: Торта Павлова
-date: 2015-11-01T10:26:17+00:00
+date: 2015-11-01T10:26:17
 author: Aurelia
 layout: post
 permalink: /torta-pavlova/

@@ -1,10 +1,8 @@
 ---
-id: 419
 title: Диетичен домашен хляб
-date: 2012-10-29T13:29:31+00:00
+date: 2012-10-29T13:29:31
 author: Aurelia
 layout: post
-guid: http://aurelias-kitchen.com/?p=419
 permalink: /dietichen-domashen-hlyab/
 servings: 6
 calories: 250

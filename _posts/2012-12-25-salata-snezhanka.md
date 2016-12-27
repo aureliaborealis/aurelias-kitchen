@@ -1,6 +1,6 @@
 ---
 title: 'Салата &#8220;Снежанка&#8221;'
-date: 2012-12-25T14:57:48+00:00
+date: 2012-12-25T14:57:48
 author: Aurelia
 layout: post
 permalink: /salata-snezhanka/

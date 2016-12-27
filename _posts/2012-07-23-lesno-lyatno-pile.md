@@ -1,10 +1,8 @@
 ---
-id: 202
 title: 'Лесно &#8220;лятно&#8221; пиле'
-date: 2012-07-23T17:55:39+00:00
+date: 2012-07-23T17:55:39
 author: Aurelia
 layout: post
-guid: http://clementiniliciouss.wordpress.com/?p=202
 permalink: /lesno-lyatno-pile/
 servings: 4
 calories: 580

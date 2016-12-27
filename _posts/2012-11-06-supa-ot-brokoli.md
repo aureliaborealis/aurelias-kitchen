@@ -1,6 +1,6 @@
 ---
 title: Супа от броколи
-date: 2012-11-06T18:40:22+00:00
+date: 2012-11-06T18:40:22
 author: Aurelia
 layout: post
 permalink: /supa-ot-brokoli/

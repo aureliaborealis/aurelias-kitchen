@@ -1,6 +1,6 @@
 ---
 title: Джинджифилови Курабийки
-date: 2012-12-24T11:26:14+00:00
+date: 2012-12-24T11:26:14
 author: Aurelia
 layout: post
 permalink: /dzhindzhifilovi-kurabijki/

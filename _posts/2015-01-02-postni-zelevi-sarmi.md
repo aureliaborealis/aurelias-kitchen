@@ -1,6 +1,6 @@
 ---
 title: Постни зелеви сарми
-date: 2015-01-02T18:46:14+00:00
+date: 2015-01-02T18:46:14
 author: Aurelia
 layout: post
 permalink: /postni-zelevi-sarmi/

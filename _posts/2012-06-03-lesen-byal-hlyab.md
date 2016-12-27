@@ -1,10 +1,8 @@
 ---
-id: 209
 title: Лесен бял хляб
-date: 2012-06-03T17:19:03+00:00
+date: 2012-06-03T17:19:03
 author: Aurelia
 layout: post
-guid: http://clementiniliciouss.wordpress.com/?p=159
 permalink: /lesen-byal-hlyab/
 servings: 10
 calories: 200

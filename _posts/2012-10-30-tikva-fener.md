@@ -1,6 +1,6 @@
 ---
 title: Тиква-фенер
-date: 2012-10-30T20:41:30+00:00
+date: 2012-10-30T20:41:30
 author: Aurelia
 layout: post
 permalink: /tikva-fener/

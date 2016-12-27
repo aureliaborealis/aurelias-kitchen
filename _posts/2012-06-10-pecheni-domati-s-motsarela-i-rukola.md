@@ -1,10 +1,8 @@
 ---
-id: 179
 title: Печени домати с моцарела и рукола
-date: 2012-06-10T20:15:43+00:00
+date: 2012-06-10T20:15:43
 author: Aurelia
 layout: post
-guid: http://clementiniliciouss.wordpress.com/?p=179
 permalink: /pecheni-domati-s-motsarela-i-rukola/
 servings: 2
 calories: 500

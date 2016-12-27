@@ -1,6 +1,6 @@
 ---
 title: Бадемови къпкейкчета
-date: 2013-02-16T12:26:10+00:00
+date: 2013-02-16T12:26:10
 author: Aurelia
 layout: post
 permalink: /bademovi-kapkejkcheta/

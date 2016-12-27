@@ -1,6 +1,6 @@
 ---
 title: Овчарски пай
-date: 2013-01-26T20:58:47+00:00
+date: 2013-01-26T20:58:47
 author: Aurelia
 layout: post
 permalink: /ovcharski-paj/
