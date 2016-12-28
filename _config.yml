@@ -104,24 +104,12 @@ prose:
           element: "number"
           label: "Време за готвене (в мин)"
           value: ""
-      - name: "ingredients"
-        field:
-          element: "textarea"
-          label: "Съставки"
-          value: ""
-          help: "по една съставка на ред"
       - name: "additional"
         field:
           element: "text"
           label: "Заглавие на допълнителен списък със съставки"
           value: ""
           help: "напр. За плънката"
-      - name: "additional_ingredients"
-        field:
-          element: "textarea"
-          label: "Допълнителен списък със съставки"
-          value: ""
-          help: "по една съставка на ред"
 
 # Gems
 gems: [jekyll-paginate]
