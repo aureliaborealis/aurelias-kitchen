@@ -68,6 +68,26 @@ prose:
               value: "others"
             - name: "Предястия"
               value: "starters"
+      - name: "servings"
+        field:
+          element: "Number"
+          label: "Порции"
+          value: ""
+      - name: "calories"
+        field:
+          element: "number"
+          label: "Калории (kCal)"
+          value: ""
+      - name: "preparation_time"
+        field:
+          element: "number"
+          label: "Време за подготовка (в мин)"
+          value: ""
+      - name: "cooking_time"
+        field:
+          element: "number"
+          label: "Време за готвене (в мин)"
+          value: ""
 
 # Gems
 gems: [jekyll-paginate]
