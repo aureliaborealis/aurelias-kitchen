@@ -50,11 +50,11 @@ prose:
           element: "text"
           label: "Основна картинка (напр /media/2016/06/image-3.jpeg)"
           value: ""
-      - name: "Описание"
+      - name: "excerpt"
         field:
           element: "textarea"
           label: "Кратко описание на рецептата"
-          value: "excerpt"
+          value: ""
           help: "(optional string) Help/description to accompany a label"
           placeholder: "(optional string) Helper text in the textarea if no value is provided."
       - name: "permalink"
