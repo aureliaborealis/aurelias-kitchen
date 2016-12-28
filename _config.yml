@@ -50,6 +50,16 @@ prose:
           element: "text"
           label: "Splash image"
           value: ""
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Адрес на рецептата"
+          value: ""
+      - name: "date"
+        field:
+          element: "text"
+          label: "Дата"
+          value: CURRENT_DATETIME
       - name: "Categories"
         field:
           element: "multiselect"
