@@ -61,27 +61,7 @@ prose:
         field:
           element: "text"
           label: "Дата"
-          value: "CURRENT_DATETIME"
-      - name: "servings"
-        field:
-          element: "Number"
-          label: "Порции"
-          value: ""
-      - name: "calories"
-        field:
-          element: "number"
-          label: "Калории (kCal)"
-          value: ""
-      - name: "preparation_time"
-        field:
-          element: "number"
-          label: "Време за подготовка (в мин)"
-          value: ""
-      - name: "cooking_time"
-        field:
-          element: "number"
-          label: "Време за готвене (в мин)"
-          value: ""
+          value: CURRENT_DATETIME
       - name: "splash"
         field:
           element: "text"
