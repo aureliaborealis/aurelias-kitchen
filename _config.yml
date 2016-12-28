@@ -45,23 +45,6 @@ prose:
         field:
           element: "hidden"
           value: ""
-      - name: "Описание"
-        field:
-          element: "textarea"
-          label: "Кратко описание на рецептата"
-          help: ""
-          value: ""
-          placeholder: ""
-      - name: "permalink"
-        field:
-          element: "text"
-          label: "Адрес на рецептата"
-          value: ""
-      - name: "date"
-        field:
-          element: "text"
-          label: "Дата"
-          value: CURRENT_DATETIME
       - name: "splash"
         field:
           element: "text"
