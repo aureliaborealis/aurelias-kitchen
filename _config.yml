@@ -45,11 +45,16 @@ prose:
         field:
           element: "hidden"
           value: ""
-      - name: "splash"
+      - name: "image"
         field:
           element: "text"
-          label: "Splash image"
+          label: "Основна картинка (напр /media/2016/06/image-3.jpeg)"
           value: ""
+      - name: "Описание"
+        field:
+          element: "textarea"
+          label: "Кратко описание на рецептата"
+          value: "excerpt"
       - name: "permalink"
         field:
           element: "text"
