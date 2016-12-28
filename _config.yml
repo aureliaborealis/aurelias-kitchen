@@ -46,13 +46,8 @@ prose:
           element: "textarea"
           label: "Кратко описание на рецептата"
           help: ""
-          value: ""
+          value: "excerpt"
           placeholder: ""
-      - name: "permalink"
-        field:
-          element: "text"
-          label: "Адрес на рецептата"
-          value: ""
       - name: "dsq_thread_id"
         field:
           element: "hidden"
