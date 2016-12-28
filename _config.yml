@@ -80,9 +80,8 @@ prose:
       - name: "cooking_time"
         field:
           element: "number"
-          label: "Време за готвене (в мин)
+          label: "Време за готвене (в мин)"
           value: ""
-
       - name: "splash"
         field:
           element: "text"
