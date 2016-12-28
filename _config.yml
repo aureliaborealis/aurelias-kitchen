@@ -41,13 +41,6 @@ prose:
         field:
           element: "hidden"
           value: "Aurelia"
-      - name: "Описание"
-        field:
-          element: "textarea"
-          label: "Кратко описание на рецептата"
-          help: ""
-          value: "excerpt"
-          placeholder: ""
       - name: "dsq_thread_id"
         field:
           element: "hidden"
