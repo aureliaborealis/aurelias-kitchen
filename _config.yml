@@ -30,15 +30,14 @@ markdown: kramdown
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://prose.github.io/starter/'
-  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+  siteurl: 'http://aurelias-kitchen.com/'
   media: 'media'
   metadata:
     _posts:
-      - name: "category"
+      - name: "layout"
         field:
           element: "hidden"
-          value: "blog"
+          value: "post"
       - name: "layout"
         field:
           element: "hidden"
@@ -53,20 +52,24 @@ prose:
           element: "text"
           label: "Splash image"
           value: ""
-      - name: "tags"
+      - name: "Categories"
         field:
           element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
+          label: "Категории"
+          placeholder: "Избери една или повече категории"
           options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
-            - name: "Pears"
-              value: "pears"
-            - name: "Mangos"
-              value: "mangos"
+            - name: "Закуски"
+              value: "Breakfast"
+            - name: "Десерти"
+              value: "desserts"
+            - name: "Напитки"
+              value: "drinks"
+            - name: "Основни"
+              value: "main-courses"
+            - name: "Разни"
+              value: "others"
+            - name: "Предястия"
+              value: "starters"
 
 # Gems
 gems: [jekyll-paginate]
