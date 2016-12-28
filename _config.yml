@@ -41,6 +41,18 @@ prose:
         field:
           element: "hidden"
           value: "Aurelia"
+      - name: "Описание"
+        field:
+          element: "textarea"
+          label: "Кратко описание на рецептата"
+          help: ""
+          value: ""
+          placeholder: ""
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Адрес на рецептата"
+          value: ""
       - name: "dsq_thread_id"
         field:
           element: "hidden"
@@ -70,7 +82,7 @@ prose:
               value: "starters"
       - name: "servings"
         field:
-          element: "Number"
+          element: "number"
           label: "Порции"
           value: ""
       - name: "calories"
