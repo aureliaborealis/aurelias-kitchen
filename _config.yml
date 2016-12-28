@@ -67,7 +67,7 @@ prose:
           element: "text"
           label: "Дата"
           value: CURRENT_DATETIME
-      - name: "Categories"
+      - name: "categories"
         field:
           element: "multiselect"
           label: "Категории"
@@ -105,6 +105,23 @@ prose:
           element: "number"
           label: "Време за готвене (в мин)"
           value: ""
+      - name: "ingredients"
+        field:
+          element: "textarea"
+          label: "Съставки"
+          value: ""
+          placeholder: "по една съставка на ред"
+      - name: "additional"
+        field:
+          element: "text"
+          label: "Заглавие на допълнителен списък със съставки"
+          value: ""
+      - name: "additional_ingredients"
+        field:
+          element: "textarea"
+          label: "Допълнителен списък със съставки"
+          value: ""
+          placeholder: "по една съставка на ред"
 
 # Gems
 gems: [jekyll-paginate]
