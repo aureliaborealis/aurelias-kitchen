@@ -38,15 +38,47 @@ prose:
         field:
           element: "hidden"
           value: "post"
-      - name: "layout"
+      - name: "author"
         field:
           element: "hidden"
-          value: "blog"
-      - name: "title"
+          value: "Aurelia"
+      - name: "dsq_thread_id"
+        field:
+          element: "hidden"
+          value: ""
+      - name: "Описание"
+        field:
+          element: "textarea"
+          label: "Кратко описание на рецептата"
+          help: ""
+          value: ""
+          placeholder: ""
+      - name: "permalink"
         field:
           element: "text"
-          label: "Title"
+          label: "Адрес на рецептата"
           value: ""
+      - name: "servings"
+        field:
+          element: "Number"
+          label: "Порции"
+          value: ""
+      - name: "calories"
+        field:
+          element: "number"
+          label: "Калории (kCal)"
+          value: ""
+      - name: "preparation_time"
+        field:
+          element: "number"
+          label: "Време за подготовка (в мин)"
+          value: ""
+      - name: "cooking_time"
+        field:
+          element: "number"
+          label: "Време за готвене (в мин)
+          value: ""
+
       - name: "splash"
         field:
           element: "text"
