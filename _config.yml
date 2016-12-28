@@ -58,6 +58,11 @@ prose:
           element: "text"
           label: "Адрес на рецептата"
           value: ""
+      - name: "date"
+        field:
+          element: "text"
+          label: "Дата"
+          value: "CURRENT_DATETIME"
       - name: "servings"
         field:
           element: "Number"
