@@ -18,7 +18,7 @@
   }
 
   function getQueryVariable(variable) {
-    var query = window.location.search.substring(1);
+    var query = decodeURIComponent(window.location.search.substring(1));
     var vars = query.split('&');
 
     for (var i = 0; i < vars.length; i++) {
@@ -41,7 +41,6 @@
       this.field('id');
       this.field('title', { boost: 10 });
       this.field('author');
-      this.field('category');
       this.field('content');
     });
 
@@ -50,7 +49,6 @@
         'id': key,
         'title': window.store[key].title,
         'author': window.store[key].author,
-        'category': window.store[key].category,
         'content': window.store[key].content
       });
 
