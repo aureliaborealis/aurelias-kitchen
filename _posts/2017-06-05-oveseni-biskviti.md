@@ -9,7 +9,7 @@ cooking_time: 15
 published: false
 title: Овесени бисквити
 image: /media/IMG_2624.JPG
-permalink: oveseni-biskviti
+permalink: /oveseni-biskviti/
 categories:
   - others
 ingredients:
