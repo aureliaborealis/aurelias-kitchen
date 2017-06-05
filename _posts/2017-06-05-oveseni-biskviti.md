@@ -6,7 +6,7 @@ servings: 12
 calories: 200
 preparation_time: 10
 cooking_time: 15
-published: false
+published: true
 title: Овесени бисквити
 image: /media/IMG_2624.JPG
 permalink: /oveseni-biskviti/
