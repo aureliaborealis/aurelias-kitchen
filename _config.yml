@@ -33,6 +33,11 @@ prose:
   media: 'media'
   metadata:
     _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Име на рецептата"
+          value: ""
       - name: "layout"
         field:
           element: "hidden"
