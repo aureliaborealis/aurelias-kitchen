@@ -18,10 +18,11 @@
   }
 
   function getQueryVariable(variable) {
-    var query = decodeURIComponent(window.location.search.substring(1));
+    var query = window.location.search.substring(1);
+    var vars = query.split('&');
 
-    for (var i = 0; i < query.length; i++) {
-      var pair = query[i].split('=');
+    for (var i = 0; i < vars.length; i++) {
+      var pair = vars[i].split('=');
 
       if (pair[0] === variable) {
         return decodeURIComponent(pair[1].replace(/\+/g, '%20'));
@@ -40,6 +41,7 @@
       this.field('id');
       this.field('title', { boost: 10 });
       this.field('author');
+      this.field('category');
       this.field('content');
     });
 
@@ -48,8 +50,12 @@
         'id': key,
         'title': window.store[key].title,
         'author': window.store[key].author,
+        'category': window.store[key].category,
         'content': window.store[key].content
       });
+      
+      idx.pipeline.remove(lunr.stemmer)
+      idx.pipeline.remove(lunr.stopWordFilter)
 
       var results = idx.search(searchTerm); // Get lunr to perform a search
       displaySearchResults(results, window.store); // We'll write this in the next section
