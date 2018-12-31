@@ -19,8 +19,8 @@ ingredients:
     черен пипер
     олио за пържене
 categories:
-  - main-courses
-  - starters
+  - Основни
+  - Предястия
 permalink: /kartofeni-rosti/
 excerpt: Картофени рьощи
 image: /media/2017-02-24 14.39.14.JPG

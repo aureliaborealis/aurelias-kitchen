@@ -9,7 +9,7 @@
 title: Aurelia's Kitchen
 encoding: utf-8
 
-email: svetla.kokalova@gmail.com.com
+email: svetla.kokalova@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Кулинарен блог за
   лесни и вкусни
@@ -20,7 +20,7 @@ url: "https://aurelias-kitchen.com" # the base hostname & protocol for your site
 permalink: pretty
 
 
-paginate: 11
+paginate: 12
 paginate_path: "/page/:num/"
 
 # Build settings
@@ -78,26 +78,21 @@ prose:
           help: "избери една или повече категории"
           options:
             - name: "Закуски"
-              value: "Breakfast"
+              value: "Закуски"
             - name: "Десерти"
-              value: "desserts"
+              value: "Десерти"
             - name: "Напитки"
-              value: "drinks"
+              value: "Напитки"
             - name: "Основни"
-              value: "main-courses"
+              value: "Основни"
             - name: "Разни"
-              value: "others"
+              value: "Разни"
             - name: "Предястия"
-              value: "starters"
+              value: "Предястия"
       - name: "servings"
         field:
           element: "number"
           label: "Порции"
-          value: ""
-      - name: "calories"
-        field:
-          element: "number"
-          label: "Калории (kCal)"
           value: ""
       - name: "preparation_time"
         field:

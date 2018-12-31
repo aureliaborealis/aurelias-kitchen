@@ -1,76 +1,9 @@
 ---
 layout: default
 ---
-<article itemscope itemtype="http://schema.org/Recipe">
+<article itemscope itemtype="http://schema.org/Recipe" class="wrapper">
 
-    <div class="share-box box">
-        <div class="share-widget">
-            <div class="fb-like" data-send="false" data-layout="button_count" data-width="60" data-show-faces="false" data-font="arial"></div>
-        </div>
-        <div class="share-widget">
-            <div class="g-plusone" data-size="medium"></div>
-            <script type="text/javascript">
-                window.___gcfg = {lang: 'bg'};
-                (function() {
-                    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                    po.src = 'https://apis.google.com/js/plusone.js';
-                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-                })();
-            </script>
-        </div>
-        <div class="share-widget">
-            <a data-pin-config="beside" href="//pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" ><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" /></a>
-        </div>
-
-        <a class="button primary print" href="javascript:window.print()" onClick="_gaq.push(['_trackEvent', 'Click', 'Print', '{{page.title}}']);">Принтирай рецептата</a>
-    </div>
-
-    <div class="post-aside">
-        <div class="box">
-            {% if page.servings %}
-                <div><b>{{ page.servings }}</b> порции</div>
-            {% endif %}
-
-            {% if page.calories %}
-                <div><b>{{ page.calories }}</b>kCal/порция</div>
-            {% endif %}
-
-            {% if page.preparation_time %}
-                <div>Време за подготовка - <b>{{ page.preparation_time }}</b>мин</div>
-            {% endif %}
-
-            {% if page.cooking_time %}
-                <div>Време за готвене - <b>{{ page.cooking_time }}</b>мин</div>
-            {% endif %}
-        </div>
-
-        <div class="note-wrapper">
-                
-            <img class="note-handle" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF4AAAAzCAMAAAApZk/YAAAAilBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAADi3s7o3M7i2cvo39Di39Pl2Mvo5NPi18m8tam1rqPu697u6tnu5dbn5NcAAADw6Nnv5tfv4tTt59ff08bEwLPg39ro4tKwqZ6tp52oo5hLR0Pt6djo5dTc2cnSx7vQyLuJh33w7Nvv7N/w59jw5Nbt4NLu7ejNNlTrAAAAKHRSTlMAAgoHERMPr8Ovwq/Cwq9TSfTz88IV+/b25q9br6tLQjgd58eEb2gvLvs2/wAAAuFJREFUWMO1l+li4iAUhRvAbBq7afdO21mB4Pu/3pxzEUz7c7xz1IQQ83FzgBtysVCjpUpcwq21RkPWlgaWkVvTupWCXGsq/0Q37e87H4MPcYZQiD7g42PkV4qow5l8zs8ztjO2nnUhohaKAbufrfnCB/05zSI/JxJnsuaUEja4ngy2w23GogwoicLFD/9DK6j/5Uzz2ff2+Y4hzryA/5/lBwqPRWDhkFcnUFApTAJDaYN3LueeW9t8ol9e+1DkRdJOAdMIUgRTG2TV8d81jLx7I/9Ev7pBq+Jk9jnbw0OWKLnskC9nXW5EbqIUaw2M/AN+pb/dEshuu92M47jppx67fuyx2/XTbjftxmnsN/j22I49tpCc73FmnKappzb3jAu9d/dBfqa/P6KKoYebb3t3jvaX9wCxidsPI/zGvH8PR9+ur5wx9t9ljLu8z46Fx5VpJPhHHwqdU+IcWYNBAj5pP2AP8I5DmiPy5ooV54mD8MFD4DnijYNTKaFXM12DLxM/OkP8KrAx9CoPz1cD/x8ix/Qq433gbBn2xl5oyJr9mhGHgo/MAJ0ErxN+F8Mp+ki8XzurhLeuk1xxxEs6jE+a+Mgku1p0bRw08ZK0Cl6kag6S3+GwwHvfKeIHydzVHEwrVXOeYoKOeBbjvFXEbz2yTIk+8kGhas7aU/+tawcuGU7R8wmoiV/LOqbgMQmSHzTx8kQs+BQhTfx2jl+89y+a3vO5XcyR9UVQ9Z7AmtISzI9b1aTA/izez/wMquYsM6bcim7G9ItxD7h2xgS/4mPCzQzK+JrvuQxJUTWlceVbZ62o08RzFVu6Ni+5B+WMGYo5KEIvqt5zqhY8V8zaD8NT1+YXrkF3IYLBWM3R7touAFkzJvheNylw0la8rPdVo/fLJaws9lWjj2TWjMl37ydVPFS6NiF25VVaiNUcF0TrVg3froXoiLcuvzJ3unj44SzxJtKc+Ip3Hx1Z8yorBWObv9mCoXUXAD5aAAAAAElFTkSuQmCC">
-
-            <img class="note-top" src="data:image/png;base64,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">
-                    
-            <div class="note-content">
-                <h2>Продукти:</h2>
-                <ul>
-                    {% for word in page.ingredients %}
-                        <li itemprop="ingredients">{{ word | newline_to_br | replace: '<br />', '</li><li itemprop="ingredients">' }}</li>
-                    {% endfor %}
-                </ul>
-                {% if page.author %}
-                    <h2>{{ page.additional }}</h2>
-                    <ul>
-                        {% for word in page.additional_ingredients %}
-                            <li itemprop="ingredients">{{ word | newline_to_br | replace: '<br />', '</li><li itemprop="ingredients">' }}</li>
-                        {% endfor %}
-                    </ul>
-                {% endif %}
-            </div>
-        </div>
-    </div>
-
-    <div class="box">
-        <img src="{{ page.image }}" class="post-header-image" />
+    <div class="post-main">
         <header class="post-header">
             <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
             <p class="post-meta">
@@ -83,6 +16,8 @@ layout: default
                 </span>
             </p>
         </header>
+        
+        <img src="{{ page.image }}" class="post-header-image" />
 
         <div class="post-content" itemprop="articleBody">
             {{ content }}
@@ -91,7 +26,7 @@ layout: default
         <div id="disqus_thread"></div>
         <script>
         var disqus_config = function () {
-            this.page.url = {{ page.permalink | prepend: "http://aurelias-kitchen.com" }};
+            this.page.url = '{{ page.permalink | prepend: "https://aurelias-kitchen.com" }}';
             this.page.identifier = {{ page.dsq_thread_id }}; 
         };
         (function() {
@@ -104,4 +39,48 @@ layout: default
 
     </div>
 
+    <div class="post-aside">
+        <div>
+            {% if page.servings %}
+                <div><b>{{ page.servings }}</b> порции</div>
+            {% endif %}
+
+            <!-- {% if page.calories %}
+                <div><b>{{ page.calories }}</b>kCal/порция</div>
+            {% endif %} -->
+
+            {% if page.preparation_time %}
+                <div>Време за подготовка - <b>{{ page.preparation_time }}</b>мин</div>
+            {% endif %}
+
+            {% if page.cooking_time %}
+                <div>Време за готвене - <b>{{ page.cooking_time }}</b>мин</div>
+            {% endif %}
+        </div>
+
+        <div class="note-wrapper">
+            <div class="note-content">
+                <h2>Продукти</h2>
+                <div>
+                    {% for word in page.ingredients %}<label itemprop="ingredients"><input type="checkbox" /><div>{{ word | newline_to_br | replace: '<br />', '</div></label><label itemprop="ingredients"><input type="checkbox" /><div>' }}</div></label>{% endfor %}
+                </div>
+                {% if page.author %}
+                    <h2>{{ page.additional }}</h2>
+                    <div>
+                        {% for word in page.additional_ingredients %}<label itemprop="ingredients"><input type="checkbox" /><div>{{ word | newline_to_br | replace: '<br />', '</div></label><label itemprop="ingredients"><input type="checkbox" /><div>' }}</div></label>{% endfor %}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+
+        <div class="actions">
+            <a class="button print" href="javascript:window.print()" onClick="_gaq.push(['_trackEvent', 'Click', 'Print', '{{page.title}}']);">Принтирай рецептата</a>
+            <div class="share-widget">
+                <div class="fb-like" data-send="false" data-layout="button_count" data-width="60" data-show-faces="false" data-font="arial"></div>
+            </div>
+            <div class="share-widget">
+                <a data-pin-config="beside" href="//pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" ><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" /></a>
+            </div>
+        </div>
+    </div>
 </article>

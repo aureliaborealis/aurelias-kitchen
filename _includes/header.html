@@ -2,7 +2,7 @@
 
   <a href="{{ site.baseurl }}/"><h1 class="site-title">{{ site.title }}</h1></a>
 
-  <nav class="site-nav">
+  <nav class="site-nav wrapper">
 
     {% for node in site.pages | sort:"order" %}
       {% if page.url == node.url %}
@@ -12,6 +12,7 @@
       {% endif %}
     {% endfor %}
 
+    {% include search.html %}
 
   </nav>
 
