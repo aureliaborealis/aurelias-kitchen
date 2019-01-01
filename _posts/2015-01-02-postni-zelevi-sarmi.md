@@ -6,7 +6,7 @@ layout: post
 title: Постни зелеви сарми
 date: 'Fri Jan 02 2015 20:46:14 GMT+0200 (EET)'
 permalink: /postni-zelevi-sarmi/
-servings: .nan
+servings: 8
 calories: 300
 preparation_time: 15
 cooking_time: 60
