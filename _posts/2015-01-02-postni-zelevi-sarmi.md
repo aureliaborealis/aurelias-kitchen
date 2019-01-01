@@ -1,10 +1,12 @@
 ---
-title: Постни зелеви сарми
-date: 2015-01-02T18:46:14
+dsq_thread_id:
+  - 3383433098
 author: Aurelia
 layout: post
+title: Постни зелеви сарми
+date: 'Fri Jan 02 2015 20:46:14 GMT+0200 (EET)'
 permalink: /postni-zelevi-sarmi/
-servings: 6-8
+servings: 8
 calories: 300
 preparation_time: 15
 cooking_time: 60
@@ -18,11 +20,10 @@ ingredients:
     3 с.л. олио
     1 с.л. сушена целина
     1-1½  ч.л. сол
-dsq_thread_id:
-  - 3383433098
 categories:
   - Основни
-image: /media/2015/01/image2.jpeg
+image: /media/798986C0-73B9-43E6-AEE8-AAF08DF04842.jpeg
+published: true
 ---
 Загрейте олиото в дълбок тиган и запържете лука до златисто. Добавете моркова и гответе 5 минути, след което добавете ориза, подправките и 1½ чаши вода. Добавете доматите, намалете котлона и оставете оризът да поеме водата. Свалете от котлона и оставете настрана за 15 минути.
   
