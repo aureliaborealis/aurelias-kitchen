@@ -32,4 +32,4 @@ image: /media/2014/09/IMG_9606.jpg
   
 Можете да гарнирате с картофено пюре, варен карфиол с масло и лимон или зелена салата.
 
-<img src="http://aurelias-kitchen.com/wp-content/uploads/2014/09/IMG_9608.jpg" alt="IMG_9608.JPG" class="alignnone size-full" />
+<img src="/media/2014/09/IMG_9608.jpg" alt="IMG_9608.JPG" class="alignnone size-full" />

@@ -123,12 +123,30 @@ h1, h2, h3 {
 .thumb-medium {
     float: left;
     margin-right: 20px;
-    max-width: 50%;
-    max-width: calc(50% - 8px);
+    width: 50%;
+    height: 0;
+    padding-bottom: 37.5%;
+    overflow: hidden;
     img {
         width: 340px;
         height: 255px;
         object-fit: cover;
+        object-position: 50% 50%;
+    }
+    @media only screen and (max-width: 600px) {
+        max-width: 100%;
+        margin-right: 0;
+        width: auto;
+        height: auto;
+        padding-bottom: 0;
+        ~ p {
+            display: none;
+        }
+        ~ h2 { 
+            display: table-caption;
+            padding: 0 20px;
+            margin: 0;
+        }
     }
 }
 
@@ -142,8 +160,9 @@ h1, h2, h3 {
         padding: 20px;
         background-color: rgba(0,0,0,0);
         transition: background-color 0.2s;
-        @media only screen and (max-width: 700px) {
+        @media only screen and (max-width: 780px) {
             max-width: 100%;
+            display: table;
         }
         &:hover {
             text-decoration: none;
@@ -172,6 +191,7 @@ h1, h2, h3 {
     overflow: hidden;
     min-width: 200px;
     padding-left: 20px;
+    line-height: 1.6;
     @media only screen and (max-width: 600px) {
         width: 100%;
     }
@@ -183,6 +203,17 @@ h1, h2, h3 {
     min-width: 320px;
     width: 100%;
     margin-bottom: 40px;
+}
+
+.recipe-details {
+    text-align: center;
+    tr:first-child td {
+        font-size: 26px;
+    }
+    td {
+        padding: 0 10px;
+        line-height: 1.2;
+    }
 }
 
 .actions {
@@ -236,27 +267,19 @@ h1, h2, h3 {
     }
 }
 
-@mixin placeholder-text {
-  &::-webkit-input-placeholder {
-    @content;
-  }
-  &::-moz-placeholder {
-    @content;
-  }
-  &:-ms-input-placeholder {
-    @content;
-  }
-  &::placeholder {
-    @content;
-  }
-}
-
 #search-input {
     font-size: 20px;
     -webkit-appearance: none;
     border: 1px solid #a0a0a0;
     border-radius: 4px;
     padding: 5px;
+    line-height: 1;
+    &:placeholder-shown {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' x='0px' y='0px' viewBox='0 0 80 80' xml:space='preserve'%3E%3Cpath fill='#bbb' d='M55.4 33.8c0-5.9-2.1-11-6.3-15.2s-9.3-6.3-15.2-6.3 -11 2.1-15.2 6.3 -6.3 9.3-6.3 15.2 2.1 11 6.3 15.2 9.3 6.3 15.2 6.3 11-2.1 15.2-6.3S55.4 39.8 55.4 33.8zM80 73.8c0 1.7-0.6 3.1-1.8 4.3C77 79.4 75.5 80 73.8 80c-1.7 0-3.2-0.6-4.3-1.8L53 61.7c-5.7 4-12.1 6-19.2 6 -4.6 0-9-0.9-13.1-2.7s-7.8-4.2-10.8-7.2S4.4 51.2 2.7 47 0 38.4 0 33.8s0.9-9 2.7-13.1 4.2-7.8 7.2-10.8 6.6-5.4 10.8-7.2S29.3 0 33.8 0s9 0.9 13.1 2.7 7.8 4.2 10.8 7.2 5.4 6.6 7.2 10.8 2.7 8.6 2.7 13.1c0 7.1-2 13.4-6 19.2l16.5 16.5C79.4 70.7 80 72.1 80 73.8z'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-size: 1em 1em;
+        background-position: 5px 50%;
+    }
     &::-webkit-search-cancel-button {
         font-size: 2em;
         cursor: pointer;
@@ -272,12 +295,6 @@ h1, h2, h3 {
         &:hover {
             transform: scale(1.2);
         }
-    }
-
-    @include placeholder-text {
-        font-size: 1.45em;
-        transform: scaleX(1.1);
-        transform-origin: 0 0;
     }
 }
 
@@ -340,6 +357,7 @@ h1, h2, h3 {
     padding: 8px 12px;
     border: 1px solid #ccc;
     margin-right: 6px;
+    margin-bottom: 6px;
     line-height: 17px;
 }
 
@@ -406,7 +424,7 @@ h1, h2, h3 {
         }
         input[type="checkbox"] {
             float: left;
-            margin: 5px 7px 0 !important;
+            margin: 0.3em 7px 0 !important;
             &:checked ~ div {
                 text-decoration: line-through;
             }

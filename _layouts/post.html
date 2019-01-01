@@ -3,19 +3,19 @@ layout: default
 ---
 <article itemscope itemtype="http://schema.org/Recipe" class="wrapper">
 
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+        <p class="post-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time> • 
+            <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>, в 
+            <span itemprop="recipeCategory">
+                {% for category in page.categories %}
+                    <span>{{ category | newline_to_br | replace: '<br />', '</span><span>' }}</span>
+                {% endfor %}
+            </span>
+        </p>
+    </header>
     <div class="post-main">
-        <header class="post-header">
-            <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-            <p class="post-meta">
-                <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time> • 
-                <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>, в 
-                <span itemprop="recipeCategory">
-                    {% for category in page.categories %}
-                        <span>{{ category | newline_to_br | replace: '<br />', '</span><span>' }}</span>
-                    {% endfor %}
-                </span>
-            </p>
-        </header>
         
         <img src="{{ page.image }}" class="post-header-image" />
 
@@ -40,23 +40,18 @@ layout: default
     </div>
 
     <div class="post-aside">
-        <div>
-            {% if page.servings %}
-                <div><b>{{ page.servings }}</b> порции</div>
-            {% endif %}
-
-            <!-- {% if page.calories %}
-                <div><b>{{ page.calories }}</b>kCal/порция</div>
-            {% endif %} -->
-
-            {% if page.preparation_time %}
-                <div>Време за подготовка - <b>{{ page.preparation_time }}</b>мин</div>
-            {% endif %}
-
-            {% if page.cooking_time %}
-                <div>Време за готвене - <b>{{ page.cooking_time }}</b>мин</div>
-            {% endif %}
-        </div>
+        <table class="recipe-details">
+            <tr>
+                {% if page.servings %}<td>{{ page.servings }}</td>{% endif %}
+                {% if page.preparation_time %}<td>{{ page.preparation_time }}′</td>{% endif %}
+                {% if page.cooking_time %}<td>{{ page.cooking_time }}′</td>{% endif %}
+            </tr>
+            <tr>
+                {% if page.servings %}<td>порции</td>{% endif %}
+                {% if page.preparation_time %}<td>време за подготовка</td>{% endif %}
+                {% if page.cooking_time %}<td>време за готвене</td>{% endif %}
+            </tr>
+        </table>
 
         <div class="note-wrapper">
             <div class="note-content">

@@ -32,4 +32,4 @@ image: /media/2014/10/IMG_9714.jpg
   
 Сервират се охладени.
 
-<img src="http://aurelias-kitchen.com/wp-content/uploads/2014/10/IMG_9697-0.jpg" class="alignnone" />
+<img src="/media/2014/10/IMG_9697-0.jpg" class="alignnone" />
