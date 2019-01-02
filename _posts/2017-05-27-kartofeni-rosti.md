@@ -2,10 +2,10 @@
 author: Aurelia
 layout: post
 date: '2017-05-27 21:52 +0300'
-servings: 4
+servings: .nan
 calories: 350
 preparation_time: 15
-cooking_time: 30
+cooking_time: 20
 published: true
 ingredients:
   - |
