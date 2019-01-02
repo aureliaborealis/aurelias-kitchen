@@ -91,8 +91,8 @@ prose:
               value: "Предястия"
       - name: "servings"
         field:
-          element: "number"
-          label: "Порции"
+          element: "text"
+          label: "Порции (напр 8, 4-6, или 2½)"
           value: ""
       - name: "preparation_time"
         field:
