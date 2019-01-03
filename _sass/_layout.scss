@@ -65,7 +65,6 @@ h1, h2, h3 {
     > a {
         position: relative;
         flex: 1 1 auto;
-        max-width: 100%;
         vertical-align: top;
         margin: 0 0 20px;
         padding: 0;
@@ -83,7 +82,9 @@ h1, h2, h3 {
             color: rgba(255,255,255,1);
         }
         @media only screen and (max-width: 700px) {
-            max-width: 50%;
+            width: 50vw;
+            max-width: none;
+            padding-bottom: calc(50vw - 16px);
         }
     }
     &:hover a {
@@ -96,6 +97,12 @@ h1, h2, h3 {
         object-fit: cover;
         object-position: 50% 50%;
         transition: transform 0.3s ease-out;
+        width: 25vw;
+        height: 25vw;
+        @media only screen and (max-width: 700px) {
+            width: 50vw;
+            height: 50vw;
+        }
     }
     &:after {
         content: "";
@@ -120,53 +127,51 @@ h1, h2, h3 {
     }
 }
 
-.thumb-medium {
-    float: left;
-    margin-right: 20px;
-    width: 50%;
-    height: 0;
-    padding-bottom: 37.5%;
-    overflow: hidden;
-    img {
-        width: 340px;
-        height: 255px;
-        object-fit: cover;
-        object-position: 50% 50%;
-    }
-    @media only screen and (max-width: 600px) {
-        max-width: 100%;
-        margin-right: 0;
-        width: auto;
-        height: auto;
-        padding-bottom: 0;
-        ~ p {
-            display: none;
-        }
-        ~ h2 { 
-            display: table-caption;
-            padding: 0 20px;
-            margin: 0;
-        }
-    }
-}
-
 .post-medium-list {
     display: flex;
     flex-wrap: wrap;
+}
 
-    > a {
+.post-medium {
+    &-link {
         flex: 1 1 auto;
         max-width: 50%;
         padding: 20px;
         background-color: rgba(0,0,0,0);
         transition: background-color 0.2s;
-        @media only screen and (max-width: 780px) {
+        @media only screen and (max-width: 800px) {
             max-width: 100%;
-            display: table;
+            display: flex;
+            flex-direction: column-reverse;
+            p {
+                display: none;
+            }
+            .post-medium-thumb {
+                max-width: 100%;
+                margin-right: 0;
+                width: auto;
+                height: auto;
+                padding-bottom: 0;
+            }
         }
         &:hover {
             text-decoration: none;
             background-color: rgba(0,0,0,0.1);
+        }
+    }
+
+    &-thumb {
+        float: left;
+        margin-right: 20px;
+        width: 50%;
+        height: 0;
+        padding-bottom: 37.5%;
+        overflow: hidden;
+        img {
+            width: 380px;
+            height: 285px;
+            object-fit: cover;
+            object-position: 50% 50%;
         }
     }
 }
@@ -190,19 +195,22 @@ h1, h2, h3 {
 .post-aside {
     overflow: hidden;
     min-width: 200px;
-    padding-left: 20px;
     line-height: 1.6;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 800px) {
         width: 100%;
+        padding-left: 20px;
     }
 }
 
 .post-main {
     float: left;
-    max-width: 800px !important;
-    min-width: 320px;
-    width: 100%;
-    margin-bottom: 40px;
+    max-width: 700px !important;
+    width: 60%;
+    padding: 0 20px 40px;
+    @media only screen and (max-width: 800px) {
+        width: 100%;
+        max-width: none !important;
+    }
 }
 
 .recipe-details {
@@ -226,7 +234,7 @@ h1, h2, h3 {
  */
 
 .post-header {
-    margin-bottom: $spacing-unit;
+    margin: 0 20px $spacing-unit;
 }
 
 .post-title {
