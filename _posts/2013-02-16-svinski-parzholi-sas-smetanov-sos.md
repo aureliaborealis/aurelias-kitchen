@@ -7,7 +7,7 @@ title: Свински пържоли на тиган със сметанов с�
 date: 'Sat Feb 16 2013 19:00:16 GMT+0200 (EET)'
 permalink: /svinski-parzholi-sas-smetanov-sos/
 servings: '4'
-calories: 690
+calories: 680
 preparation_time: 10
 cooking_time: 20
 ingredients:
