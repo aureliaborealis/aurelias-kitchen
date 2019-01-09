@@ -2,13 +2,13 @@
 author: Aurelia
 layout: post
 date: '2017-06-05 19:26 +0300'
-servings: 12
+servings: '12'
 calories: 200
 preparation_time: 10
 cooking_time: 15
 published: true
 title: Овесени бисквити
-image: /media/IMG_2624.JPG
+image: /media/98764017-9275-4430-847E-63C221F6FDF4.jpeg
 permalink: /oveseni-biskviti/
 categories:
   - Разни
