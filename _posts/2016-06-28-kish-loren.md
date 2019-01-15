@@ -6,8 +6,8 @@ date: '2016-06-28T14:29'
 permalink: /kish-loren/
 servings: '8'
 calories: 430
-preparation_time: 40
-cooking_time: 25
+preparation_time: 75
+cooking_time: 45
 ingredients:
   - >
     180гр. студено масло, нарязано на кубчета   350гр. пресято брашно  2 яйца 
