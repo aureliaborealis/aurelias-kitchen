@@ -21,7 +21,7 @@ additional_ingredients:
 categories:
   - Основни
   - Предястия
-image: /media/2016/06/image-3.jpeg
+image: /media/96D0B203-6F58-45AE-BA3E-8334AE662061.jpeg
 published: true
 ---
 ![](/media/2016/06/image.jpeg)
