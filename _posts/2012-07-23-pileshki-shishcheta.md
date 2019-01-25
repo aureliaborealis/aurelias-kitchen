@@ -25,7 +25,7 @@ categories:
   - Основни
 image: /media/3DE26B50-0FF9-4B50-8A7A-728AD24FF274.jpeg
 published: true
-preparation_time: 5
+preparation_time: 10
 cooking_time: 16
 ---
 Нарежете пилешките гърди на дълги тънки ленти и накиснете за 3часа/от предната вечер в марината от бялото вино, соевия сос и подправките.
