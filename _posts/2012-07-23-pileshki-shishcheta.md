@@ -1,27 +1,21 @@
 ---
-title: Пилешки шишчета
-date: 2012-07-23T17:34:26
-author: Aurelia
-layout: post
-permalink: /pileshki-shishcheta/
-ingredients:
-  - |
-    500 гр. пилешки гърди
-    2 глави лук, нарязани
-    10 чери домата, разполовени
-    1 тиквичка (по желание), нарязана на ивици
-    1 червена чушка (по желание), нарязана на ивици
-    150мл. бяло вино
-    5 с.л. соев сос
-    черен пипер
-    сол
-servings: 4
-calories: 220
 dsq_thread_id:
   - 1023527231
+author: Aurelia
+layout: post
+title: Пилешки шишчета
+date: 'Mon Jul 23 2012 20:34:26 GMT+0300 (EEST)'
+permalink: /pileshki-shishcheta/
+ingredients:
+  - "500 гр. пилешки гърди\n2 глави лук, нарязани\n10 чери домата, разполовени\n1 тиквичка (по желание),\_нарязана на ивици\n1 червена чушка (по желание), нарязана на ивици\n150мл. бяло вино\n5 с.л. соев сос\nчерен пипер\nсол\n"
+servings: '4'
+calories: 220
 categories:
   - Основни
-image: /media/2012/10/img_6174.jpg
+image: /media/3DE26B50-0FF9-4B50-8A7A-728AD24FF274.jpeg
+published: true
+preparation_time: 5
+cooking_time: 0
 ---
 <img src="/media/2012/10/img_6159.jpg" class="alignleft" /><img src="/media/2012/10/img_6167.jpg" class="alignleft" /> 
 
