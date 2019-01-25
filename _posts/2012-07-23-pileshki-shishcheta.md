@@ -7,7 +7,18 @@ title: Пилешки шишчета
 date: 'Mon Jul 23 2012 20:34:26 GMT+0300 (EEST)'
 permalink: /pileshki-shishcheta/
 ingredients:
-  - "500 гр. пилешки гърди\n2 глави лук, нарязани\n10 чери домата, разполовени\n1 тиквичка (по желание),\_нарязана на ивици\n1 червена чушка (по желание), нарязана на ивици\n150мл. бяло вино\n5 с.л. соев сос\nчерен пипер\nсол\n"
+  - |
+    600 гр. пилешки гърди
+    2 глави червен лук
+    8 чери домата
+    1 тиквичка
+    1 червена чушка
+    100мл. бяло вино
+    5с.л. соев сос
+    2 скилидки чесън, пресовани
+    пресен/сушен магданоз, босилек и/или риган, нарязани на ситно
+    черен пипер
+    сол
 servings: '4'
 calories: 220
 categories:
@@ -15,7 +26,7 @@ categories:
 image: /media/3DE26B50-0FF9-4B50-8A7A-728AD24FF274.jpeg
 published: true
 preparation_time: 5
-cooking_time: 0
+cooking_time: 16
 ---
 <img src="/media/2012/10/img_6159.jpg" class="alignleft" /><img src="/media/2012/10/img_6167.jpg" class="alignleft" /> 
 
