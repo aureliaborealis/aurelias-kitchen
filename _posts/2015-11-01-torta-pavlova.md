@@ -31,7 +31,7 @@ additional_ingredients:
     къпини, боровинки, киви)
 categories:
   - Десерти
-image: /media/2015/11/image.jpeg
+image: /media/BDE9B6B4-CDD2-4B12-BBA7-022E5592C2B8.jpeg
 published: true
 ---
 Застелете кръгла тава с хартия за печене и с молив очертайте кръг с диаметър между 22-25см ( с помощта на чиния).
