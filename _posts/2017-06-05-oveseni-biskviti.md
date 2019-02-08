@@ -8,7 +8,7 @@ preparation_time: 10
 cooking_time: 15
 published: true
 title: Овесени бисквити
-image: /media/98764017-9275-4430-847E-63C221F6FDF4.jpeg
+image: /media/4199A4C7-1DA2-4B5B-89BF-A265BDBDB528.jpeg
 permalink: /oveseni-biskviti/
 categories:
   - Разни
