@@ -13,7 +13,7 @@ excerpt: >-
 permalink: /piyani-zhelirani-mecheta/
 servings: '1'
 calories: 540
-preparation_time: 1440
+preparation_time: 3
 ingredients:
   - |
     100гр желирани мечета
