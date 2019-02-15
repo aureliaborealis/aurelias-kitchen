@@ -48,6 +48,8 @@ h1, h2, h3 {
     -webkit-appearance: none;
     display: none;
     outline: none;
+    border-radius: 0;
+    border: none;
     @media only screen and (max-width: 980px) {
         display: inline-block;
         width: 3em;
@@ -58,10 +60,10 @@ h1, h2, h3 {
         & {
             background: linear-gradient(to bottom, black 10%, transparent 10%, transparent 45%, black 45%, black 55%, transparent 55%, transparent 90%, black 90%)
         }
-        ~ nav a {
+        ~ nav > a {
             display: none
         }
-        &:checked ~ nav a {
+        &:checked ~ nav > a {
             display: inline-block
         }
         @at-root .search {
