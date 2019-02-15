@@ -1,5 +1,5 @@
 h1, h2, h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Pacifico', serif;
 }
 
 
@@ -20,7 +20,7 @@ h1, h2, h3 {
 .site-title {
     font-size: 42px;
     letter-spacing: -1px;
-    margin: 0.4em 0;
+    margin: 0.4em 0 0;
 }
 
 .site-nav {
@@ -30,21 +30,45 @@ h1, h2, h3 {
     .page-link {
         display: inline-block;
         color: #222;
-        padding: 0 22px;
-        font-size: 17px;
-        line-height: 1.8em;
+        padding: 0 13px;
+        font-size: 14px;
+        line-height: 3em;
         font-weight: 500;
         &.is-current {
             background: #828282;
             color: #fff;
         }
         &:empty {
-            display: none;
+            display: none !important;
         }
     }
 }
 
-
+#hamburger {
+    -webkit-appearance: none;
+    display: none;
+    outline: none;
+    @media only screen and (max-width: 980px) {
+        display: inline-block;
+        width: 3em;
+        height: 2.5em;
+        &:checked {
+            background: linear-gradient(45deg, transparent 47%, black 47%, black 53%, transparent 53%), linear-gradient(-45deg, transparent 47%, black 47%, black 53%, transparent 53%)
+        }
+        & {
+            background: linear-gradient(to bottom, black 10%, transparent 10%, transparent 45%, black 45%, black 55%, transparent 55%, transparent 90%, black 90%)
+        }
+        ~ nav a {
+            display: none
+        }
+        &:checked ~ nav a {
+            display: inline-block
+        }
+        @at-root .search {
+            display: block;
+        }
+    }
+}
 
 /**
  * Page content

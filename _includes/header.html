@@ -1,7 +1,12 @@
 <header class="site-header">
 
-  <a href="{{ site.baseurl }}/"><h1 class="site-title">{{ site.title }}</h1></a>
+  <h1 class="site-title">
+    <a href="{{ site.baseurl }}/">
+      {{ site.title }}
+    </a>
+  </h1>
 
+  <input type="checkbox" id="hamburger">
   <nav class="site-nav wrapper">
 
     {% for node in site.pages | sort:"order" %}

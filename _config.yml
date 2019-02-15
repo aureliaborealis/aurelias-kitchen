@@ -89,6 +89,8 @@ prose:
               value: "Разни"
             - name: "Предястия"
               value: "Предястия"
+            - name: "Кутия за обяд"
+              value: "Кутия за обяд"
       - name: "servings"
         field:
           element: "text"
