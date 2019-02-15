@@ -1,9 +1,0 @@
-{
-    "schedule": "daily",
-    "ignoredFiles": [
-        "media/2012/*",
-        "media/2013/*",
-        "media/2014/*"
-    ],
-    "aggressiveCompression": "true"
-}
