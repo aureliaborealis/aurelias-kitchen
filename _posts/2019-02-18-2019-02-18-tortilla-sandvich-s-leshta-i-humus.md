@@ -4,7 +4,7 @@ layout: post
 date: '2019-02-18 22:06 +0200'
 preparation_time: 5
 cooking_time: 15
-published: false
+published: true
 title: Тортила сандвич с леща и хумус
 permalink: /tortilla-sandvich-s-leshta-i-humus/
 categories:
