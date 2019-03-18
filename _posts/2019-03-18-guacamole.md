@@ -4,7 +4,7 @@ layout: post
 date: '2019-03-18 16:02 +0200'
 preparation_time: 10
 cooking_time: 0
-published: false
+published: true
 title: Гуакамоле
 image: /media/AF9A8C9B-7FDB-4F1D-98B1-CE9B1B8BD490.jpeg
 categories:
