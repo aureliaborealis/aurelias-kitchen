@@ -6,7 +6,7 @@ preparation_time: 120
 cooking_time: 50
 published: true
 title: Морковена торта с орехи
-image: /media/ A3E04BE7-E7E3-4E78-A42B-FCBA3BA0811C.jpeg
+image: /media/A3E04BE7-E7E3-4E78-A42B-FCBA3BA0811C.jpeg
 permalink: /morkovena-torta-s-orehi/
 categories:
   - Десерти
