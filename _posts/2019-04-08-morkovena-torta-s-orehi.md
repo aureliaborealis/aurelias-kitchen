@@ -4,7 +4,7 @@ layout: post
 date: '2019-04-08 15:27 +0300'
 preparation_time: 120
 cooking_time: 50
-published: false
+published: true
 title: Морковена торта с орехи
 image: /media/ A3E04BE7-E7E3-4E78-A42B-FCBA3BA0811C.jpeg
 permalink: /morkovena-torta-s-orehi/
