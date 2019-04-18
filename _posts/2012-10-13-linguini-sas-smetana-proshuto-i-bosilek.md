@@ -1,10 +1,12 @@
 ---
-title: Лингуини със сметана, прошуто и босилек
-date: 2012-10-13T21:29:03
+dsq_thread_id:
+  - 1022003408
 author: Aurelia
 layout: post
+title: 'Лингуини със сметана, прошуто и босилек'
+date: 'Sun Oct 14 2012 00:29:03 GMT+0300 (EEST)'
 permalink: /linguini-sas-smetana-proshuto-i-bosilek/
-servings: 6
+servings: '6'
 calories: 380
 ingredients:
   - |
@@ -20,11 +22,10 @@ ingredients:
     ароматна сол (сол, босилек, чесън, риган и мащерка на прах)
 preparation_time: 10
 cooking_time: 15
-dsq_thread_id:
-  - 1022003408
 categories:
   - Основни
-image: /media/2012/10/img_7435.jpg
+image: /media/FC45D596-A324-4AF4-B9D6-B86AE89B63BD.jpeg
+published: true
 ---
 Загрейте 4 литра вода и разтворете 30гр. сол в нея. След завиране сипете зехтина, сложете лингуините и варете 8-10мин. до готовност.
 
