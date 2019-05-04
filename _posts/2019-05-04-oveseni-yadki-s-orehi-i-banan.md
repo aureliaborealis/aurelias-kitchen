@@ -4,7 +4,7 @@ layout: post
 date: '2019-05-04 22:13 +0300'
 preparation_time: 2
 cooking_time: 0
-published: false
+published: true
 title: Овесени ядки с орехи и банан
 image: /media/1EF71239-04F0-4D00-9071-1DA46DCA04B6.jpeg
 permalink: /oveseni-yadki-s-orehi-i-banan
