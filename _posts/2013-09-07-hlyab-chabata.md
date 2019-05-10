@@ -1,10 +1,12 @@
 ---
-title: 'Хляб &#8220;Чабата&#8221;'
-date: 2013-09-07T16:28:25
+dsq_thread_id:
+  - 1727696405
 author: Aurelia
 layout: post
+title: Чабата
+date: 'Sat Sep 07 2013 19:28:25 GMT+0300 (EEST)'
 permalink: /hlyab-chabata/
-servings: 10
+servings: '10'
 calories: 200
 preparation_time: 500
 cooking_time: 25
@@ -23,11 +25,10 @@ additional_ingredients:
     1/2 ч.л. захар
     1/2 ч.л. суха мая
     150 мл. вода
-dsq_thread_id:
-  - 1727696405
 categories:
   - Разни
-image: /media/2013/09/image.jpeg
+image: /media/7A6CECEF-77F2-414C-84B8-E19B4B661B17.jpeg
+published: true
 ---
 Приготвянето на чабатата, класически италиански хляб, става на два етапа.
   
