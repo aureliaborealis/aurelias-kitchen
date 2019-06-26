@@ -1,10 +1,12 @@
 ---
-title: Босилеково песто
-date: 2012-06-24T21:05:34
+dsq_thread_id:
+  - 1038212843
 author: Aurelia
 layout: post
+title: Босилеково песто
+date: 'Mon Jun 25 2012 00:05:34 GMT+0300 (EEST)'
 permalink: /bosilekovo-pesto/
-servings: 25
+servings: '25'
 ingredients:
   - |
     90-100гр. пресен босилек (листа)
@@ -14,15 +16,15 @@ ingredients:
     1 ч.л. сол
     шепа смлени орехи
     пармезан (по желание)
-dsq_thread_id:
-  - 1038212843
 calories: 45
 preparation_time: 10
 categories:
   - Разни
-image: /media/2012/06/IMG_1155.jpg
+image: /media/C3BBC7E6-4AA5-41A3-A591-917BBE7B55D8.jpeg
+published: true
+cooking_time: 0
 ---
-Смесете продуктите и разбиите в кухненски робот (миксер). Пресипете в бурканче и полейте с малко зехтин.
+Смесете продуктите и разбийте в кухненски робот (блендер). Пресипете в бурканче и полейте с малко зехтин.
   
 Съхранявайте в хладилника.
   
