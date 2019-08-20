@@ -2,8 +2,8 @@
 author: Aurelia
 layout: post
 date: '2019-08-20 22:25 +0300'
-preparation_time: 20
-cooking_time: 0
+preparation_time: 2
+cooking_time: 20
 published: true
 title: Салата със сьомга и авокадо
 image: /media/5F1F62E8-878B-4CF1-89F0-ED188DD7920B.jpeg
