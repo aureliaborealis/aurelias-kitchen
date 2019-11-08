@@ -12,7 +12,7 @@ categories:
   - Кутия за обяд
 servings: '2'
 additional: 'За гарниране:'
-image: /media/46F848A6-DD9F-4117-B692-6174C84EBAB8.jpeg
+image: /media/F40CD459-D162-4531-9157-7190B964C817.jpeg
 ingredients:
   - |
     2 питки за бургери
