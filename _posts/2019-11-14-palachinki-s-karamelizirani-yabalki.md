@@ -4,7 +4,7 @@ layout: post
 date: '2019-11-14 14:40 +0200'
 preparation_time: 10
 cooking_time: 10
-published: false
+published: true
 title: Палачинки с карамелизирани ябълки
 image: /media/255A83AA-574E-49A1-BC74-C433571DA161.jpeg
 permalink: /palachinki-s-karamelizirani-yabalki/
