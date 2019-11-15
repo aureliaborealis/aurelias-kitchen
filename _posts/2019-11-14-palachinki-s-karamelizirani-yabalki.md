@@ -21,6 +21,7 @@ ingredients:
     50гр. краве масло
     2с.л. кафява захар
     ½-1ч.л. канела
+additional: За поднасяне
 additional_ingredients:
   - |
     заквасена сметана
