@@ -4,7 +4,7 @@ layout: post
 date: '2019-11-15 16:14 +0200'
 preparation_time: 60
 cooking_time: 90
-published: false
+published: true
 title: Френска селска торта
 image: /media/C517CDDE-4A6B-44D9-9616-3EAE095307B7.jpeg
 permalink: /frenska-selska-torta/
