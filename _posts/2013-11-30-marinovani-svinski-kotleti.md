@@ -4,7 +4,7 @@ dsq_thread_id:
 author: Aurelia
 layout: post
 title: Мариновани свински котлети
-date: 'Sat Nov 30 2013 18:05:24 GMT+0200 (EET)'
+date: 'April 18 2020 18:05:24 GMT+0200 (EET)'
 permalink: /marinovani-svinski-kotleti/
 servings: '4'
 calories: 720
