@@ -4,7 +4,7 @@ layout: post
 date: '2021-07-23 13:09 +0300'
 preparation_time: 5
 cooking_time: 0
-published: false
+published: true
 title: 'Салата с артишок, авокадо и чери домати'
 image: /media/APC_0402.jpg
 permalink: /salata-s-artishok-avocado-y-cheri-domati/
