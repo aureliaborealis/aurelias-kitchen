@@ -4,7 +4,7 @@ layout: post
 date: '2021-07-25 13:57 +0300'
 preparation_time: 5
 cooking_time: 0
-published: false
+published: true
 title: Средиземноморска салата с краставици и Фета
 image: /media/APC_0456.jpg
 permalink: /sredizemnomorska-salata-s-krastavitsi-i-feta/
@@ -22,6 +22,8 @@ ingredients:
     сокът от ½ лимон 
     3 с.л. зехтин, ектра върджин
     сол
+excerpt: ''
+additional: ''
 ---
 В малко бурканче или купичка смесете лимоновия сок, оцета и зехтина и оставете настрана. 
 
