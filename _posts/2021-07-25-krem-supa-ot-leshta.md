@@ -4,7 +4,7 @@ layout: post
 date: '2021-07-25 13:36 +0300'
 preparation_time: 10
 cooking_time: 25
-published: false
+published: true
 title: Гръцка крем супа от леща
 permalink: /krem-supa-ot-leshta/
 categories:
