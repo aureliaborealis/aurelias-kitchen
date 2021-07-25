@@ -4,7 +4,6 @@ dsq_thread_id:
 author: Aurelia
 layout: post
 title: Домашни бухтички
-date: 'Sat Feb 23 2013 14:58:06 GMT+0200 (Eastern European Standard Time)'
 permalink: /domashni-buhtichki/
 servings: '3'
 calories: 400
