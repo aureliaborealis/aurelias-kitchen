@@ -8,7 +8,7 @@ permalink: /domashni-buhtichki/
 servings: '3'
 calories: 400
 preparation_time: 5
-cooking_time: .nan
+cooking_time: 15
 ingredients:
   - |
     150 гр. бяло брашно
