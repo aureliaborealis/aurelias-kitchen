@@ -4,7 +4,7 @@ layout: post
 date: '2021-07-26 15:14 +0300'
 preparation_time: 5
 cooking_time: 10
-published: false
+published: true
 title: Салата с царевица и авокадо
 permalink: /salata-s-tsarevitsa-y-avocado/
 categories:
