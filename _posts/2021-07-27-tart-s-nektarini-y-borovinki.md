@@ -4,7 +4,7 @@ layout: post
 date: '2021-07-27 15:02 +0300'
 preparation_time: 15
 cooking_time: 20
-published: false
+published: true
 title: Тарт с нектарини и боровинки
 permalink: /tart-s-nektarini-y-borovinki/
 categories:
