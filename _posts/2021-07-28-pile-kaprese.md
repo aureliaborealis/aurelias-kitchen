@@ -4,7 +4,7 @@ layout: post
 date: '2021-07-28 20:09 +0300'
 preparation_time: 3
 cooking_time: 15
-published: false
+published: true
 title: Пиле Капрезе
 permalink: /pile-kaprese/
 categories:
