@@ -4,7 +4,7 @@ layout: post
 date: '2021-08-12 14:06 +0300'
 preparation_time: 30
 cooking_time: 12
-published: false
+published: true
 title: Милфьой с малини
 image: /media/APC_0588.jpg
 permalink: /millefeuille-s-yagodi/
