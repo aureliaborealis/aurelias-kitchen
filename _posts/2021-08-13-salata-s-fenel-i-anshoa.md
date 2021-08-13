@@ -4,7 +4,7 @@ layout: post
 date: '2021-08-13 15:32 +0300'
 preparation_time: 10
 cooking_time: 0
-published: false
+published: true
 title: Салата с фенел и аншоа
 image: /media/APC_0558.jpg
 permalink: /salata-s-fenel-i-anshoa/
