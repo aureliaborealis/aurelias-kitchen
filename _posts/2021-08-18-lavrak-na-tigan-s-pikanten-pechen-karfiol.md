@@ -4,7 +4,7 @@ layout: post
 date: '2021-08-18 16:02 +0300'
 preparation_time: 10
 cooking_time: 30
-published: false
+published: true
 title: Лаврак на тиган с пикантен печен карфиол
 image: /media/APC_0630.jpg
 permalink: /lavrak-na-tigan-s-pikanten-pechen-karfiol/
