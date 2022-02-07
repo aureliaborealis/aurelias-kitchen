@@ -1,18 +1,20 @@
 ---
 author: Aurelia
 layout: post
-date: '2022-02-07 17:12 +0200'
+date: '2022-02-07 16:55 +0200'
 preparation_time: 10
 cooking_time: 20
 published: false
-title: Untitled
-image: /media/APC_0703.jpeg
+title: Карфиолени пръчици
+image: /media/APC_0703.jpg
 permalink: /karfioleni-prachitsi/
 categories:
   - Разни
   - Предястия
   - Кутия за обяд
 servings: '6'
+ingredients:
+  - ''
 ---
 Загрейте фурната на 220ºС  и пригответе правоъгълна тавичка, застлана с хартия за печене.
 Измийте карфиола, почистете го от листенцата и разделете на малки розички. С помощта на кухненски робот направете карфиола на дребен “ориз”.
