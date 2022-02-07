@@ -5,7 +5,7 @@ date: '2022-02-07 17:47 +0200'
 preparation_time: 10
 cooking_time: 20
 published: false
-title: Untitled
+title: Карфиолени пръчици
 image: /media/APC_0703.jpg
 permalink: /karfioleni-prachitsi/
 categories:
