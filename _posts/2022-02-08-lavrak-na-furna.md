@@ -4,7 +4,7 @@ layout: post
 date: '2022-02-08 15:32 +0200'
 preparation_time: 5
 cooking_time: 30
-published: false
+published: true
 title: Лаврак на фурна
 image: media/APC_0715.jpg
 permalink: /lavrak-na-furna/
