@@ -4,7 +4,7 @@ layout: post
 date: '2022-07-28 13:29 +0300'
 preparation_time: 30
 cooking_time: 13
-published: false
+published: true
 title: Малиново суфле
 image: /media/APC_0906.jpg
 permalink: /malinovo-sufle/
