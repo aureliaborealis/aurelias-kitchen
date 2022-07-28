@@ -4,7 +4,7 @@ layout: post
 date: '2022-07-28 09:52 +0300'
 preparation_time: 5
 cooking_time: 10
-published: false
+published: true
 title: Тост с гъби и крема сирене
 image: /media/APC_0835.jpg
 permalink: /tost-s-gybi-i-krema-sirene/
