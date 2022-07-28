@@ -4,7 +4,7 @@ layout: post
 date: '2022-07-28 12:01 +0300'
 preparation_time: 15
 cooking_time: 60
-published: false
+published: true
 title: Салата с цвекло и синьо сирене
 image: /media/APC_0879.jpg
 permalink: /salata-s-tsveklo-y-sinyo-sirene/
