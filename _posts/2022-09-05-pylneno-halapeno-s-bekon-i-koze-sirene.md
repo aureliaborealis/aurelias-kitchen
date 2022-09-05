@@ -4,7 +4,7 @@ layout: post
 date: '2022-09-05 18:07 +0300'
 preparation_time: 5
 cooking_time: 25
-published: false
+published: true
 title: Пълнено халапеньо с бекон и козе сирене
 image: /media/APC_1000.jpg
 permalink: /pylneno-halapeno-s-bekon-i-koze-sirene/
