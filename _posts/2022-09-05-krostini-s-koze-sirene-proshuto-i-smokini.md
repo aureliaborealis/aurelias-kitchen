@@ -4,7 +4,7 @@ layout: post
 date: '2022-09-05 14:10 +0300'
 preparation_time: 5
 cooking_time: 0
-published: false
+published: true
 title: 'Кростини с козе сирене, прошуто и смокини'
 image: /media/APC_0984.jpg
 permalink: /krostini-s-koze-sirene-proshuto-i-smokini/
