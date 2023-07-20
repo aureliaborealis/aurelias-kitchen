@@ -5,7 +5,7 @@ date: '2023-07-20 16:09 +0300'
 preparation_time: 10
 cooking_time: 10
 published: true
-title: Манго чийзкейк без печене
+title: ' Хрупкава царевична полента'
 image: /media/IMG_9120.jpg
 permalink: /hrupkava-tsarevichna-polenta/
 servings: 5-6
