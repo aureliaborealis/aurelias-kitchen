@@ -1,7 +1,7 @@
 ---
 author: Aurelia
 layout: post
-date: '2023-07-20 16:09 +0300'
+date: '2023-07-19 16:09 +0300'
 preparation_time: 40
 cooking_time: 0
 published: true
