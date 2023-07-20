@@ -4,7 +4,7 @@ layout: post
 date: '2023-07-20 16:09 +0300'
 preparation_time: 10
 cooking_time: 10
-published: false
+published: true
 title: Манго чийзкейк без печене
 image: /media/IMG_9120.jpg
 permalink: /hrupkava-tsarevichna-polenta/
