@@ -4,7 +4,7 @@ layout: post
 date: '2023-07-20 16:09 +0300'
 preparation_time: 40
 cooking_time: 0
-published: false
+published: true
 title: Манго чийзкейк без печене
 image: /media/IMG_9084.jpg
 permalink: /mango-cheesecake-bez-pechene/
