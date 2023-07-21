@@ -4,7 +4,7 @@ layout: post
 date: '2023-07-21 14:48 +0300'
 preparation_time: 5
 cooking_time: 0
-published: false
+published: true
 title: Йогурт с чия и манго
 image: /media/IMG_9102.jpeg
 permalink: /yogurt-s-chia-i-mango/
