@@ -6,7 +6,7 @@ preparation_time: 5
 cooking_time: 0
 published: true
 title: Йогурт с чия и манго
-image: /media/IMG_9102.jpeg
+image: /media/IMG_9102.jpg
 permalink: /yogurt-s-chia-i-mango/
 categories:
   - Закуски
