@@ -4,7 +4,7 @@ layout: post
 date: '2023-07-21 12:38 +0300'
 preparation_time: 60
 cooking_time: 2
-published: false
+published: true
 title: Домашна прясна паста
 image: /media/IMG_9138.jpg
 permalink: /domashna-pryasna-pasta/
