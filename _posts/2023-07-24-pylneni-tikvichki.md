@@ -4,7 +4,7 @@ layout: post
 date: '2023-07-24 14:53 +0300'
 preparation_time: 20
 cooking_time: 25
-published: false
+published: true
 title: 'Пълнени тиквички '
 image: /media/IMG_9195.jpeg
 permalink: /pylneni-tikvichki/
