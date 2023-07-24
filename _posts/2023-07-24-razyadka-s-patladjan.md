@@ -4,7 +4,7 @@ layout: post
 date: '2023-07-24 20:50 +0300'
 preparation_time: 5
 cooking_time: 40
-published: false
+published: true
 title: Разядка с патладжан
 image: /media/IMG_9207.jpeg
 permalink: /razyadka-s-patladjan/
