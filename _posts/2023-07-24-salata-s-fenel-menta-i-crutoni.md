@@ -4,7 +4,7 @@ layout: post
 date: '2023-07-24 14:45 +0300'
 preparation_time: 5
 cooking_time: 15
-published: false
+published: true
 title: 'Салата с фенел, мента и крутони'
 image: /media/IMG_9180.jpeg
 permalink: /salata-s-fenel-menta-i-crutoni/
