@@ -4,7 +4,7 @@ layout: post
 date: '2023-07-25 21:48 +0300'
 preparation_time: 20
 cooking_time: 75
-published: false
+published: true
 title: Тарт татен с франджипан и нектарини
 image: /media/IMG_9245.jpeg
 additional: 'за масленото тесто:'
