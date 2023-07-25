@@ -4,7 +4,7 @@ layout: post
 date: '2023-07-25 19:47 +0300'
 preparation_time: 5
 cooking_time: 5
-published: false
+published: true
 title: Шишчета със скариди и халуми
 permalink: /shishcheta-sys-skaridi-i-halumi/
 categories:
