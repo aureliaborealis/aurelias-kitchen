@@ -4,7 +4,7 @@ layout: post
 date: '2023-07-27 13:36 +0300'
 preparation_time: 5
 cooking_time: 20
-published: false
+published: true
 title: Пържени тиквички
 ingredients:
   - |
