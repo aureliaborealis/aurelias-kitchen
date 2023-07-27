@@ -9,7 +9,7 @@ title: Пържени тиквички
 ingredients:
   - |
     2-3 средно големи тиквички (около 500гр.)
-    2ч.л. сол 2 teaspoons coarse
+    2ч.л. сол
     слънчогледово олио за пържене
 additional: 'за панировката:'
 additional_ingredients:
