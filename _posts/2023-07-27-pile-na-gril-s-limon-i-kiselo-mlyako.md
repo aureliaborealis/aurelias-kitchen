@@ -4,7 +4,7 @@ layout: post
 date: '2023-07-27 13:24 +0300'
 preparation_time: 5
 cooking_time: 20
-published: false
+published: true
 title: Пиле на грил с лимон и киселo мляко
 ingredients:
   - |
