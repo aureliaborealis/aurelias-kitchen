@@ -4,7 +4,7 @@ layout: post
 date: '2023-08-04 19:05 +0300'
 preparation_time: 10
 cooking_time: 35
-published: false
+published: true
 title: Домашно сладко от смокини
 image: /media/IMG_9378.jpeg
 permalink: /domashno-sladko-ot-smokini/
