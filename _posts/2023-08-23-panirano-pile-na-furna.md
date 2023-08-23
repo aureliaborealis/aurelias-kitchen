@@ -4,7 +4,7 @@ layout: post
 date: '2023-08-23 17:11 +0300'
 preparation_time: 5
 cooking_time: 25
-published: false
+published: true
 title: Панирано пиле на фурна
 image: /media/IMG_0058.jpeg
 permalink: /panirano-pile-na-furna/
