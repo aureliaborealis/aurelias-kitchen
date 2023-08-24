@@ -4,7 +4,7 @@ layout: post
 date: '2023-08-24 12:07 +0300'
 preparation_time: 20
 cooking_time: 15
-published: false
+published: true
 title: Тарт със смокини и маскарпоне
 image: /media/IMG_9388 2.jpeg
 permalink: /tart-sys-smokini-i-mascarpone/
