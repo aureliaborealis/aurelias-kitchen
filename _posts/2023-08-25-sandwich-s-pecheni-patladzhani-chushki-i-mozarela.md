@@ -4,7 +4,7 @@ layout: post
 date: '2023-08-25 15:49 +0300'
 preparation_time: 10
 cooking_time: 30
-published: false
+published: true
 title: 'Сандвич с печени патладжани, чушки и моцарела'
 image: /media/IMG_0099.jpeg
 permalink: /sandwich-s-pecheni-patladzhani-chushki-i-mozarela/
