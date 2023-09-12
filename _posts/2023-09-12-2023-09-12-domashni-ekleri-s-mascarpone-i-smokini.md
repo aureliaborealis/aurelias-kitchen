@@ -4,7 +4,7 @@ layout: post
 date: '2023-09-12 09:21 +0300'
 preparation_time: 20
 cooking_time: 40
-published: false
+published: true
 title: Домашни еклери с маскарпоне и смокини
 image: /media/IMG_0342.jpeg
 permalink: /domashni-ekleri-s-mascarpone-i-smokini/
