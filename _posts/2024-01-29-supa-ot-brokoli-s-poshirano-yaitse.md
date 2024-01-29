@@ -6,7 +6,7 @@ preparation_time: 10
 cooking_time: 30
 published: true
 title: Супа от броколи с поширано яйце
-image: /media/0C724B03-8B46-4A33-9BA9-013EB18CB53A_1_201_a.heic
+image: /media/IMG_5086.jpeg
 permalink: /supa-ot-brokoli-s-poshirano-yaitse/
 categories:
   - Основни
