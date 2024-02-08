@@ -8,7 +8,7 @@ title: Тарт с аспержи
 image: /media/IMG_5185.jpeg
 permalink: /tart-s-asperzhi/
 servings: '4'
-published: null
+published: false
 ingredients:
   - |
     ½  малка опаковка бутер тесто (около 150- 200гр.)
