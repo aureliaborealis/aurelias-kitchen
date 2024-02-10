@@ -80,6 +80,11 @@ a {
     }
 }
 
+.post-main a {
+  text-decoration: underline;
+  color: revert;
+}
+
 blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
