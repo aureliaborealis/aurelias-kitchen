@@ -29,8 +29,8 @@ ingredients:
 
     4с.л. сироп от кумкуат
 
-    120-150гр [захаросан
-    кумкуат](https://aurelias-kitchen.com/zaharosan-kumquat/)
+    120-150гр [захаросан кумкуат]
+    (https://aurelias-kitchen.com/zaharosan-kumquat/)
 additional_ingredients:
   - |
     200гр обикновено бисквити
