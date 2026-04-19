@@ -488,6 +488,28 @@ h1, h2, h3 {
     cursor: pointer;
 }
 
+label[for="reading"] {
+	cursor: pointer;
+	background: gainsboro;
+	font-size: 14px;
+	padding: 0 4px;
+	vertical-align: bottom;
+	flex-direction: column;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 52px;
+}
+label[for="reading"]:hover {
+	background: #999;
+}
+#reading {
+	margin: 0;
+	width: 1.2em;
+	height: 1.2em;
+	font-size: 1.2em;
+}
+
 
 .print {
     float: right;
