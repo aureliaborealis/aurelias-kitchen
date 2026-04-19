@@ -70,12 +70,10 @@ layout: default
 
         <div class="actions">
             <a class="button print" href="javascript:window.print()" onClick="_gaq.push(['_trackEvent', 'Click', 'Print', '{{page.title}}']);">Принтирай рецептата</a>
-            <div class="share-widget">
-                <div class="fb-like" data-send="false" data-layout="button_count" data-width="60" data-show-faces="false" data-font="arial"></div>
-            </div>
-            <div class="share-widget">
-                <a data-pin-config="beside" href="//pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" ><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" /></a>
-            </div>
+            <label for="reading">
+                <input class="button reading" href="javascript:requestWakeLock()" type="checkbox" id="reading">
+                Режим готвене
+            </label>
         </div>
     </div>
 </article>
