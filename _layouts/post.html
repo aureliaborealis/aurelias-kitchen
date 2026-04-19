@@ -71,9 +71,44 @@ layout: default
         <div class="actions">
             <a class="button print" href="javascript:window.print()" onClick="_gaq.push(['_trackEvent', 'Click', 'Print', '{{page.title}}']);">Принтирай рецептата</a>
             <label for="reading">
-                <input class="button reading" href="javascript:requestWakeLock()" type="checkbox" id="reading">
+                <input class="button reading" type="checkbox" id="reading">
                 Режим готвене
             </label>
         </div>
     </div>
 </article>
+<script>
+const checkbox = document.getElementById('reading');
+let wakeLock = null;
+
+// Function to request the screen lock
+const requestWakeLock = async () => {
+  try {
+    wakeLock = await navigator.wakeLock.request('screen');
+    console.log('Wake Lock active');
+  } catch (err) {
+    console.error(`${err.name}: ${err.message}`);
+    checkbox.checked = false; // Reset toggle if request is blocked
+  }
+};
+
+// Toggle logic based on checkbox state
+checkbox.addEventListener('change', async () => {
+  if (checkbox.checked) {
+    await requestWakeLock();
+  } else {
+    if (wakeLock !== null) {
+      await wakeLock.release();
+      wakeLock = null;
+      console.log('Wake Lock released manually');
+    }
+  }
+});
+
+// Re-activate lock when the tab becomes visible again
+document.addEventListener('visibilitychange', async () => {
+  if (wakeLock !== null && document.visibilityState === 'visible' && checkbox.checked) {
+    await requestWakeLock();
+  }
+});
+</script>
