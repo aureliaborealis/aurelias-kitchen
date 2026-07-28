@@ -7,7 +7,7 @@ import pagefind from 'astro-pagefind';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
+	site: 'https://aurelias-kitchen.com',
 	integrations: [mdx(), sitemap(), pagefind()],
 	fonts: [
 		{
