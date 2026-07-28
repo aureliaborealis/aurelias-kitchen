@@ -1,0 +1,145 @@
+---
+import { Image } from 'astro:assets';
+import type { CollectionEntry } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import FormattedDate from '../components/FormattedDate.astro';
+import Header from '../components/Header.astro';
+
+type Props = CollectionEntry<'blog'>['data'];
+const { post } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, servings, preparation_time, cooking_time, ingredients, categories, additional, additional_ingredients } = Astro.props;
+
+const { frontmatter } = Astro.props;
+import { getCollection } from 'astro:content';
+
+
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+  </head>
+
+  <body>
+    <Header />
+    <div class="page-content">
+      <article itemscope="" itemtype="http://schema.org/Recipe" class="wrapper" data-pagefind-body>
+          <header class="post-header">
+            <h1 class="post-title" itemprop="name headline">{title}</h1>
+            <p class="post-meta" data-pagefind-ignore="all">
+              <FormattedDate date={pubDate} itemprop="datePublished" />
+              &thinsp;•&thinsp;
+              <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">Aurelia</span></span>
+              &thinsp;•&thinsp;
+              <span itemprop="recipeCategory">
+                <span>{categories.join(', ')}</span>
+              </span>
+            </p>
+          </header>
+          <div class="post-main">
+            <div class="post-header-image">
+              {heroImage && <Image src={heroImage} alt="" />}
+            </div>
+
+            <slot />
+          </div>
+          <div class="post-aside">
+
+            <table class="recipe-details">
+              <tbody>
+                <tr>
+                  <td>{servings}</td>
+                  <td>{preparation_time}′</td>
+                  <td>{cooking_time}′</td>
+                </tr>
+                <tr>
+                  <td>порции</td>
+                  <td>време за подготовка</td>
+                  <td>време за готвене</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <div class="note-wrapper">
+                <div class="note-content">
+
+                      {ingredients && ingredients.length > 0 && (
+                        <div class="ingredients-section">
+                          <h2>Продукти</h2>
+                          <div>
+                            {ingredients.map((ingredient) => (
+                              <label itemprop="ingredients">
+                                <input type="checkbox"><div>{ingredient}</div>
+                              </label>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
+                      {additional && additional_ingredients.length > 0 && (
+                        <div class="ingredients-section">
+                          <h2>{additional}</h2>
+                          <div>
+                            {additional_ingredients.map((add_ingred) => (
+                              <label itemprop="ingredients">
+                                <input type="checkbox"><div>{add_ingred}</div>
+                              </label>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
+                </div>
+            </div>
+
+            <div class="actions">
+                <a class="button print" href="javascript:window.print()" onclick="_gaq.push(['_trackEvent', 'Click', 'Print', 'Блонди с малини и шамфъстък']);">Принтирай рецептата</a>
+                <label for="reading">
+                    <input class="button reading" type="checkbox" id="reading">
+                    Режим готвене
+                </label>
+            </div>
+
+
+          </div>
+      </article>
+<script>
+const checkbox = document.getElementById('reading');
+let wakeLock = null;
+
+// Function to request the screen lock
+const requestWakeLock = async () => {
+  try {
+    wakeLock = await navigator.wakeLock.request('screen');
+    console.log('Wake Lock active');
+  } catch (err) {
+    console.error(`${err.name}: ${err.message}`);
+    checkbox.checked = false; // Reset toggle if request is blocked
+  }
+};
+
+// Toggle logic based on checkbox state
+checkbox.addEventListener('change', async () => {
+  if (checkbox.checked) {
+    await requestWakeLock();
+  } else {
+    if (wakeLock !== null) {
+      await wakeLock.release();
+      wakeLock = null;
+      console.log('Wake Lock released manually');
+    }
+  }
+});
+
+// Re-activate lock when the tab becomes visible again
+document.addEventListener('visibilitychange', async () => {
+  if (wakeLock !== null && document.visibilityState === 'visible' && checkbox.checked) {
+    await requestWakeLock();
+  }
+});
+</script>
+    </div>
+    <Footer />
+  </body>
+</html>

@@ -1,0 +1,61 @@
+backend:
+  name: github
+  repo: aureliaborealis/aurelias-kitchen
+  branch: master
+
+site_url: "http://aurelias-kitchen.com/"
+media_folder: "media"
+public_folder: "/media"
+
+collections:
+  - name: "posts"
+    label: "Рецепти" # Recipes
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      # Hidden metadata fields
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Author", name: "author", widget: "hidden", default: "Aurelia" }
+      - { label: "Disqus Thread ID", name: "dsq_thread_id", widget: "hidden", default: "", required: false }
+
+      # Visible recipe content fields
+      - { label: "Име на рецептата", name: "title", widget: "string" }
+      - { label: "Дата", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss" }
+      - { label: "Адрес на рецептата", name: "permalink", widget: "string", required: false }
+      
+      - label: "Основна картинка"
+        name: "image"
+        widget: "image"
+        required: false
+        comment: "напр. /media/2016/06/image-3.jpeg"
+
+      - { label: "Кратко описание на рецептата", name: "excerpt", widget: "text", required: false }
+
+      - label: "Категории"
+        name: "categories"
+        widget: "select"
+        multiple: true
+        comment: "избери една или повече категории"
+        options:
+          - "Закуски"
+          - "Десерти"
+          - "Напитки"
+          - "Основни"
+          - "Разни"
+          - "Предястия"
+          - "Кутия за обяд"
+
+      # Recipe specifics
+      - { label: "Порции (напр 8, 4-6, или 2½)", name: "servings", widget: "string", required: false }
+      - { label: "Време за подготовка (в мин)", name: "preparation_time", widget: "number", value_type: "int", required: false }
+      - { label: "Време за готвене (в мин)", name: "cooking_time", widget: "number", value_type: "int", required: false }
+      
+      - label: "Заглавие на допълнителен списък със съставки"
+        name: "additional"
+        widget: "string"
+        required: false
+        comment: "напр. За плънката"
+
+      # Main Markdown body editor
+      - { label: "Съдържание / Рецепта", name: "body", widget: "markdown" }

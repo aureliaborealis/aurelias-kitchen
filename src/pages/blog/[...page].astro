@@ -1,0 +1,83 @@
+---
+import type { GetStaticPaths, Page } from 'astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { Image } from 'astro:assets';
+import { getExcerpt } from '../../utils/excerpt';
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import FormattedDate from '../../components/FormattedDate.astro';
+import Header from '../../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
+
+export const getStaticPaths = (async ({ paginate }) => {
+  const posts = (await getCollection('blog')).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  );
+
+  return paginate(posts, { pageSize: 8 });
+}) satisfies GetStaticPaths;
+
+type Props = {
+  page: Page<CollectionEntry<'blog'>>;
+};
+
+const { page } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+      <div class="wrapper">
+        <div class="post-medium-list">
+          {
+            page.data.map((post) => (
+              <a href={`${post.data.permalink}`} class="post-medium-link">
+                {post.data.heroImage && (
+                  <div class="post-medium-thumb">
+                  <Image width={720} src={post.data.heroImage} alt="" />
+                  </div>
+                )}
+                <h2>{post.data.title}</h2>
+                <p class="date">
+                  <!-- <FormattedDate date={post.data.pubDate} /> -->
+                  <p>{getExcerpt(post.body)}</p>
+                </p>
+              </a>
+            ))
+          }
+        </div>
+      </div>
+
+    <!-- Pagination Controls -->
+    <nav class="pagination" aria-label="Blog pages">
+      {
+        page.url.prev ? (
+          <a href={page.url.prev} rel="prev">
+            &larr; предишна
+          </a>
+        ) : (
+          <span class="disabled">&larr; предишна</span>
+        )
+      }
+
+      <span class="page-count">
+        стр {page.currentPage} of {page.lastPage}
+      </span>
+
+      {
+        page.url.next ? (
+          <a href={page.url.next} rel="next">
+            следваща &rarr;
+          </a>
+        ) : (
+          <span class="disabled">следваща &rarr;</span>
+        )
+      }
+    </nav>
+
+    <Footer />
+  </body>
+</html>

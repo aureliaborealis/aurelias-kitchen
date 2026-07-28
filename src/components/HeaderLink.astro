@@ -1,0 +1,22 @@
+---
+import type { HTMLAttributes } from 'astro/types';
+
+type Props = HTMLAttributes<'a'>;
+
+const { href, class: className, ...props } = Astro.props;
+const pathname = Astro.url.pathname;
+const subpath = pathname.match(/[^\/]+/g);
+
+// 1. Identify if the current top-level route is a numeric page (e.g., "2", "3")
+const isPageNumber = subpath?.[0] ? /^\d+$/.test(subpath[0]) : false;
+
+// 2. Check active state
+const isActive =
+  href === pathname ||
+  (href === '/' && isPageNumber) ||
+  href === '/' + (subpath?.[0] || '');
+---
+
+<a href={href} class:list={['page-link', className, { 'is-current': isActive }]} {...props}>
+	<slot />
+</a>

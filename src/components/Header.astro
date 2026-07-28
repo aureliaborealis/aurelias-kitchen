@@ -1,0 +1,46 @@
+---
+import { SITE_TITLE } from '../consts';
+import HeaderLink from './HeaderLink.astro';
+import Search from "astro-pagefind/components/Search.astro";
+---
+
+
+<header class="site-header">
+
+  <h1 class="site-title">
+    <a href="/">
+      {SITE_TITLE}
+    </a>
+  </h1>
+
+  <input type="checkbox" id="hamburger">
+  <nav class="site-nav wrapper">
+	<HeaderLink href="/">Начало</HeaderLink>
+	<HeaderLink href="/about">За мен</HeaderLink>
+  <HeaderLink href="/category/breakfast/">Закуски</HeaderLink>
+  <HeaderLink href="/category/desserts/">Десерти</HeaderLink>
+  <HeaderLink href="/category/drinks/">Напитки</HeaderLink>
+  <HeaderLink href="/category/lunchbox/">Кутия за обяд</HeaderLink>
+  <HeaderLink href="/category/main-courses/">Основни</HeaderLink>
+  <HeaderLink href="/category/others/">Разни</HeaderLink>
+  <HeaderLink href="/category/starters/">Предястия</HeaderLink>
+  </nav>
+
+
+<Search
+  id="search"
+  className="pagefind-ui"
+  uiOptions={{ showImages: true }}
+  searchboxOptions={{ placeholder: "търси рецепти" }}
+/>
+
+<style is:global>
+.pf-searchbox-result-title,
+.pagefind-ui__result-title,
+.pf-trigger-shortcut {
+  display: none !important;
+}
+</style>
+
+</header>
+
