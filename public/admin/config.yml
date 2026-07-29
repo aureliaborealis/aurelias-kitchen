@@ -4,27 +4,27 @@ backend:
   branch: master
 
 site_url: "https://aurelias-kitchen.com"
-media_folder: "media"
+
+# Astro-compatible Media Paths
+media_folder: "public/media"
 public_folder: "/media"
 
 collections:
   - name: "posts"
     label: "Рецепти"
-    folder: "_posts"
+    folder: "src/content/blog" # Astro Content Collections path
+    extension: "md"            # Explicitly save as markdown files
+    format: "frontmatter"      # Enforce standard frontmatter format
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Author", name: "author", widget: "hidden", default: "Aurelia" }
-      - { label: "Disqus Thread ID", name: "dsq_thread_id", widget: "hidden", default: "", required: false }
-
-      # Visible recipe content fields
       - { label: "Име на рецептата", name: "title", widget: "string" }
-      - { label: "Дата", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss" }
+      - { label: "Дата", name: "pubDate", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss" }
       - { label: "Адрес на рецептата", name: "permalink", widget: "string", required: false }
       
       - label: "Основна картинка"
-        name: "image"
+        name: "heroImage"
         widget: "image"
         required: false
         comment: "напр. /media/2016/06/image-3.jpeg"
