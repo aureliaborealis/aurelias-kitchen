@@ -40,6 +40,12 @@ const { title, description, image = FallbackImage } = Astro.props;
 <!-- Primary Meta Tags -->
 <title>{title}</title>
 <meta name="description" content={description} />
+<script>
+  // Force the identity widget to point to your Netlify subdomain
+  if (window.location.hostname === 'aurelias-kitchen.com' || window.location.hostname === 'www.aurelias-kitchen.com') {
+    window.localStorage.setItem('netlifySiteURL', 'https://netlify.app');
+  }
+</script>
 <script
   type="text/javascript"
   src="https://identity.netlify.com/v1/netlify-identity-widget.js"
