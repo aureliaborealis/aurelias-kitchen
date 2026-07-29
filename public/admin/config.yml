@@ -9,12 +9,11 @@ public_folder: "/media"
 
 collections:
   - name: "posts"
-    label: "Рецепти" # Recipes
+    label: "Рецепти"
     folder: "_posts"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     fields:
-      # Hidden metadata fields
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Author", name: "author", widget: "hidden", default: "Aurelia" }
       - { label: "Disqus Thread ID", name: "dsq_thread_id", widget: "hidden", default: "", required: false }
