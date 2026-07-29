@@ -3,7 +3,7 @@ backend:
   repo: aureliaborealis/aurelias-kitchen
   branch: master
 
-site_url: https://netlify.app
+site_url: "recipe-blog-aurelia.netlify.app"
 
 # Astro-compatible Media Paths
 media_folder: "public/media"
