@@ -17,7 +17,6 @@
     "@astrojs/sitemap": "^3.7.3",
     "astro": "^7.1.5",
     "astro-pagefind": "^2.0.1",
-    "decap-cms-app": "^3.15.1",
     "sharp": "^0.35.0"
   }
 }
